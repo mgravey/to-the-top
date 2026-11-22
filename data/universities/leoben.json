@@ -1,0 +1,173 @@
+{
+ "university": "Montanuniversität Leoben",
+ "report_archive": "https://www.unileoben.ac.at/universitaet/download-bereich/",
+ "note": "Counts as published in the university Wissensbilanz (indicators II.1.3 / 1.A.3 / 1.A.2 for appointments, II.1.1 / 1.A.1 for professor headcount at 31 December), transcribed by research agents in Nov 2026. [women, total].",
+ "notes_2006_2015": "[women,total]; 2005 missing",
+ "notes_2016_2025": "[women,total]; summed by type; unidata lists 1.A.5 Repräsentanz von Frauen in Berufungsverfahren too",
+ "appointments": {
+  "2006": [
+   0,
+   2
+  ],
+  "2007": [
+   0,
+   3
+  ],
+  "2008": [
+   0,
+   6
+  ],
+  "2009": [
+   0,
+   2
+  ],
+  "2010": [
+   1,
+   7
+  ],
+  "2011": [
+   0,
+   4
+  ],
+  "2012": [
+   0,
+   2
+  ],
+  "2013": [
+   0,
+   1
+  ],
+  "2014": [
+   1,
+   1
+  ],
+  "2015": [
+   0,
+   2
+  ],
+  "2016": [
+   0,
+   5
+  ],
+  "2017": [
+   0,
+   1
+  ],
+  "2018": [
+   0,
+   5
+  ],
+  "2019": [
+   0,
+   2
+  ],
+  "2020": [
+   1,
+   4
+  ],
+  "2021": [
+   0,
+   2
+  ],
+  "2022": [
+   0,
+   7
+  ],
+  "2023": [
+   1,
+   6
+  ],
+  "2024": [
+   0,
+   2
+  ],
+  "2025": [
+   0,
+   2
+  ]
+ },
+ "professors": {
+  "2006": [
+   2,
+   38
+  ],
+  "2007": [
+   2,
+   38
+  ],
+  "2008": [
+   1,
+   40
+  ],
+  "2009": [
+   2,
+   39
+  ],
+  "2010": [
+   3,
+   44
+  ],
+  "2011": [
+   2,
+   46
+  ],
+  "2012": [
+   1,
+   44
+  ],
+  "2013": [
+   1,
+   42
+  ],
+  "2014": [
+   2,
+   43
+  ],
+  "2015": [
+   2,
+   43
+  ],
+  "2016": [
+   2,
+   46
+  ],
+  "2017": [
+   2,
+   46
+  ],
+  "2018": [
+   2,
+   50
+  ],
+  "2019": [
+   2,
+   49
+  ],
+  "2020": [
+   3,
+   53
+  ],
+  "2021": [
+   3,
+   53
+  ],
+  "2022": [
+   3,
+   53
+  ],
+  "2023": [
+   5,
+   55
+  ],
+  "2024": [
+   6,
+   52
+  ],
+  "2025": [
+   7,
+   49
+  ]
+ },
+ "derived": {},
+ "counts_inflated_years": []
+}

@@ -1,0 +1,177 @@
+{
+ "university": "BOKU Wien",
+ "report_archive": "https://boku.ac.at/mitteilungsblatt/leistungsvereinbarung-leistungsberichtwissensbilanz",
+ "note": "Counts as published in the university Wissensbilanz (indicators II.1.3 / 1.A.3 / 1.A.2 for appointments, II.1.1 / 1.A.1 for professor headcount at 31 December), transcribed by research agents in Nov 2026. [women, total].",
+ "notes_2006_2015": "[women,total]; 2006 appointments 0 contemporaneous vs 3 retrospective (no sex)",
+ "notes_2016_2025": "[women,total]; 2025 table 9 vs foreword 8",
+ "appointments": {
+  "2006": [
+   0,
+   0
+  ],
+  "2007": [
+   0,
+   4
+  ],
+  "2008": [
+   2,
+   4
+  ],
+  "2009": [
+   1,
+   3
+  ],
+  "2010": [
+   1,
+   5
+  ],
+  "2011": [
+   4,
+   12
+  ],
+  "2012": [
+   1,
+   7
+  ],
+  "2013": [
+   1,
+   8
+  ],
+  "2014": [
+   2,
+   7
+  ],
+  "2015": [
+   0,
+   3
+  ],
+  "2016": [
+   3,
+   4
+  ],
+  "2017": [
+   3,
+   8
+  ],
+  "2018": [
+   3,
+   10
+  ],
+  "2019": [
+   1,
+   6
+  ],
+  "2020": [
+   0,
+   4
+  ],
+  "2021": [
+   1,
+   2
+  ],
+  "2022": [
+   1,
+   7
+  ],
+  "2023": [
+   0,
+   1
+  ],
+  "2024": [
+   1,
+   3
+  ],
+  "2025": [
+   6,
+   9
+  ]
+ },
+ "professors": {
+  "2005": [
+   8,
+   63
+  ],
+  "2006": [
+   8,
+   59
+  ],
+  "2007": [
+   8,
+   63
+  ],
+  "2008": [
+   11,
+   63
+  ],
+  "2009": [
+   10,
+   54
+  ],
+  "2010": [
+   11,
+   54
+  ],
+  "2011": [
+   15,
+   63
+  ],
+  "2012": [
+   14,
+   65
+  ],
+  "2013": [
+   15,
+   71
+  ],
+  "2014": [
+   15,
+   75
+  ],
+  "2015": [
+   13,
+   72
+  ],
+  "2016": [
+   16,
+   76
+  ],
+  "2017": [
+   19,
+   84
+  ],
+  "2018": [
+   23,
+   95
+  ],
+  "2019": [
+   25,
+   98
+  ],
+  "2020": [
+   25,
+   100
+  ],
+  "2021": [
+   26,
+   104
+  ],
+  "2022": [
+   26,
+   107
+  ],
+  "2023": [
+   29,
+   110
+  ],
+  "2024": [
+   28,
+   110
+  ],
+  "2025": [
+   32,
+   114
+  ]
+ },
+ "derived": {},
+ "counts_inflated_years": []
+}

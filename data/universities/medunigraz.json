@@ -1,0 +1,173 @@
+{
+ "university": "MedUni Graz",
+ "report_archive": "https://www.medunigraz.at/frontend/user_upload/dokumente/organisationsdokumente/Wissensbilanz-2025.pdf",
+ "note": "Counts as published in the university Wissensbilanz (indicators II.1.3 / 1.A.3 / 1.A.2 for appointments, II.1.1 / 1.A.1 for professor headcount at 31 December), transcribed by research agents in Nov 2026. [women, total].",
+ "notes_2006_2015": "[women,total]; 2013 §98 only; 2015 from IHS/unidata",
+ "notes_2016_2025": "[women,total]; 2016 appointments not verified; unidata Statistisches Taschenbuch tab 5.2 groups professors+equivalents; 2016 appointments 1/6 from Statistisches Taschenbuch 2017 (second round)",
+ "appointments": {
+  "2006": [
+   2,
+   8
+  ],
+  "2007": [
+   1,
+   4
+  ],
+  "2008": [
+   4,
+   12
+  ],
+  "2009": [
+   1,
+   9
+  ],
+  "2010": [
+   0,
+   5
+  ],
+  "2011": [
+   2,
+   7
+  ],
+  "2012": [
+   2,
+   14
+  ],
+  "2013": [
+   0,
+   1
+  ],
+  "2014": [
+   2,
+   6
+  ],
+  "2015": [
+   2,
+   6
+  ],
+  "2016": [
+   1,
+   6
+  ],
+  "2017": [
+   1,
+   2
+  ],
+  "2018": [
+   0,
+   2
+  ],
+  "2019": [
+   1,
+   3
+  ],
+  "2020": [
+   1,
+   3
+  ],
+  "2021": [
+   1,
+   10
+  ],
+  "2022": [
+   3,
+   7
+  ],
+  "2023": [
+   5,
+   9
+  ],
+  "2024": [
+   3,
+   11
+  ],
+  "2025": [
+   1,
+   4
+  ]
+ },
+ "professors": {
+  "2006": [
+   7,
+   72
+  ],
+  "2007": [
+   8,
+   69
+  ],
+  "2008": [
+   9,
+   72
+  ],
+  "2009": [
+   9,
+   72
+  ],
+  "2010": [
+   8,
+   68
+  ],
+  "2011": [
+   10,
+   67
+  ],
+  "2012": [
+   12,
+   78
+  ],
+  "2013": [
+   12,
+   78
+  ],
+  "2014": [
+   15,
+   72
+  ],
+  "2015": [
+   17,
+   72
+  ],
+  "2016": [
+   18,
+   80
+  ],
+  "2017": [
+   17,
+   77
+  ],
+  "2018": [
+   16,
+   77
+  ],
+  "2019": [
+   18,
+   78
+  ],
+  "2020": [
+   19,
+   75
+  ],
+  "2021": [
+   21,
+   89
+  ],
+  "2022": [
+   25,
+   92
+  ],
+  "2023": [
+   31,
+   94
+  ],
+  "2024": [
+   30,
+   95
+  ],
+  "2025": [
+   29,
+   102
+  ]
+ },
+ "derived": {},
+ "counts_inflated_years": []
+}

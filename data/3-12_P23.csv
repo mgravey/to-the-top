@@ -1,0 +1,54 @@
+﻿"3.12 Bildungsstand (detailliert) der Bevölkerung im Alter von 20 bis 34 Jahren 2022 nach Altersgruppen
+und Geschlecht"
+Alter,Insgesamt,Höchste abgeschlossene Ausbildung,,,,,,Höchste abgeschlossene Ausbildung,,,,,,,Alter
+,,"ohne
+Pflichtschul-
+abschluss","Allgemein
+bildende
+Pflichtschule",Lehre,"Berufs-
+bildende
+mittlere
+Schule",(Werk-) Meister:innen,"Sonstige
+mittlere
+Schule1","Allgemein
+bildende
+höhere
+Schule","Berufs-
+bildende
+höhere
+Schule",Kolleg,Akademie,Bachelor,"Master/
+Diplom","Doktorat/
+PhD"
+,Männer und Frauen,,,,,,,Männer und Frauen
+Zusammen,1722248,49595,246068,448352,132500,24415,21413,206728,230278,14356,11205,171289,159434,6615,Zusammen
+20–24 Jahre,498036,15700,84368,119715,40452,2725,4809,97047,93809,2382,1252,32435,3306,36,20–24 Jahre
+25–29 Jahre,591202,14245,76937,157932,44331,8961,7591,60734,72317,5799,4084,77914,59424,933,25–29 Jahre
+30–34 Jahre,633010,19650,84763,170705,47717,12729,9013,48947,64152,6175,5869,60940,96704,5646,30–34 Jahre
+,Männer,,,,,,,Männer
+Zusammen,885946,29603,144143,274590,55841,20056,9898,98527,109776,3761,4012,64551,67570,3618,Zusammen
+20–24 Jahre,257811,10182,51680,75026,18623,2004,1625,42711,43742,449,544,10268,945,12,20–24 Jahre
+25–29 Jahre,304397,8630,45025,96426,18548,7383,4106,31225,35124,1494,1453,30462,24066,455,25–29 Jahre
+30–34 Jahre,323738,10791,47438,103138,18670,10669,4167,24591,30910,1818,2015,23821,42559,3151,30–34 Jahre
+,Frauen,,,,,,,Frauen
+Zusammen,836302,19992,101925,173762,76659,4359,11515,108201,120502,10595,7193,106738,91864,2997,Zusammen
+20–24 Jahre,240225,5518,32688,44689,21829,721,3184,54336,50067,1933,708,22167,2361,24,20–24 Jahre
+25–29 Jahre,286805,5615,31912,61506,25783,1578,3485,29509,37193,4305,2631,47452,35358,478,25–29 Jahre
+30–34 Jahre,309272,8859,37325,67567,29047,2060,4846,24356,33242,4357,3854,37119,54145,2495,30–34 Jahre
+,in %,,,,,,,in %
+,Männer und Frauen,,,,,,,Männer und Frauen
+Zusammen,100,2.9,14.3,26,7.7,1.4,1.2,12,13.4,0.8,0.7,9.9,9.3,0.4,Zusammen
+20–24 Jahre,100,3.2,16.9,24,8.1,0.5,1,19.5,18.8,0.5,0.3,6.5,0.7,0,20–24 Jahre
+25–29 Jahre,100,2.4,13,26.7,7.5,1.5,1.3,10.3,12.2,1,0.7,13.2,10.1,0.2,25–29 Jahre
+30–34 Jahre,100,3.1,13.4,27,7.5,2,1.4,7.7,10.1,1,0.9,9.6,15.3,0.9,30–34 Jahre
+,Männer,,,,,,,Männer
+Zusammen,100,3.3,16.3,31,6.3,2.3,1.1,11.1,12.4,0.4,0.5,7.3,7.6,0.4,Zusammen
+20–24 Jahre,100,3.9,20,29.1,7.2,0.8,0.6,16.6,17,0.2,0.2,4,0.4,0,20–24 Jahre
+25–29 Jahre,100,2.8,14.8,31.7,6.1,2.4,1.3,10.3,11.5,0.5,0.5,10,7.9,0.1,25–29 Jahre
+30–34 Jahre,100,3.3,14.7,31.9,5.8,3.3,1.3,7.6,9.5,0.6,0.6,7.4,13.1,1,30–34 Jahre
+,Frauen,,,,,,,Frauen
+Zusammen,100,2.4,12.2,20.8,9.2,0.5,1.4,12.9,14.4,1.3,0.9,12.8,11,0.4,Zusammen
+20–24 Jahre,100,2.3,13.6,18.6,9.1,0.3,1.3,22.6,20.8,0.8,0.3,9.2,1,0,20–24 Jahre
+25–29 Jahre,100,2,11.1,21.4,9,0.6,1.2,10.3,13,1.5,0.9,16.5,12.3,0.2,25–29 Jahre
+30–34 Jahre,100,2.9,12.1,21.8,9.4,0.7,1.6,7.9,10.7,1.4,1.2,12,17.5,0.8,30–34 Jahre
+"Q: STATISTIK AUSTRIA, Bildungsstandregister 2022. Aus Datenschutzgründen wurde mit der Methode ""Record Swapping"" ein Teil der Daten verschmutzt. Bei Auswertungen, die auf sehr kleinen Fallzahlen beruhen, sind keine zuverlässigen Aussagen möglich.
+1) Enthält kurze berufsbildende mittlere Schulen (z.B. Haushaltungsschulen), Lehrgänge (z.B. Trainer:innen, Sanitäter:innen) sowie Ausbildungen im medizinisch-technischen Fachdienst."

@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Keep generated SVG figures, source data, population provenance, and width-model settings, the timeline player, and both Matura views in version control.

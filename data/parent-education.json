@@ -1,0 +1,618 @@
+{
+ "own_levels": [
+  "Compulsory school",
+  "Apprenticeship or VET school",
+  "Matura (AHS/BHS)",
+  "University or college degree"
+ ],
+ "parent_levels": [
+  "Compulsory school",
+  "Apprenticeship or VET school",
+  "Matura (AHS/BHS)",
+  "University or college degree"
+ ],
+ "frames_age_25_44": [
+  {
+   "title": "Survey 2007",
+   "sub": "aged 25 to 44, born 1963 to 1982",
+   "src": "AES 2007 report, Grafik 4",
+   "m": [
+    [
+     30.1,
+     56.6,
+     7.4,
+     5.9
+    ],
+    [
+     8.2,
+     63.1,
+     17.9,
+     10.8
+    ],
+    [
+     4.3,
+     24.5,
+     41.4,
+     29.8
+    ],
+    [
+     5.1,
+     13.6,
+     29.5,
+     51.8
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.19818057402590086,
+    0.6099113596891904,
+    0.07957102479817932,
+    0.11233704148672935
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2007.0
+  },
+  {
+   "title": "Survey 2011/12",
+   "sub": "aged 25 to 44, born 1967 to 1987",
+   "src": "AES 2011/12 report, Grafik 4",
+   "m": [
+    [
+     27.3,
+     55.1,
+     11.0,
+     6.6
+    ],
+    [
+     10.1,
+     60.8,
+     16.5,
+     12.6
+    ],
+    [
+     4.6,
+     22.4,
+     32.1,
+     41.0
+    ],
+    [
+     5.1,
+     13.7,
+     25.4,
+     55.8
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.1884754793979694,
+    0.5759592975758226,
+    0.10227073275451982,
+    0.1332944902716881
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2011.5
+  },
+  {
+   "title": "Survey 2016/17",
+   "sub": "aged 25 to 44, born 1972 to 1992",
+   "src": "Bildung in Zahlen 2018/19, table 5.1_9a",
+   "m": [
+    [
+     32.6,
+     46.1,
+     14.4,
+     6.9
+    ],
+    [
+     7.5,
+     59.3,
+     17.3,
+     15.9
+    ],
+    [
+     6.0,
+     18.6,
+     41.9,
+     33.6
+    ],
+    [
+     3.6,
+     15.6,
+     23.5,
+     57.3
+    ]
+   ],
+   "parent_population": [
+    409900,
+    1241600,
+    294100,
+    361200
+   ],
+   "parent_population_source": {
+    "counts": [
+     409900,
+     1241600,
+     294100,
+     361200
+    ],
+    "source_title": "Bildung in Zahlen 2018/19, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/Bildung_in_Zahlen_2018_19_-_Schluesselindikatoren_und_Analysen.pdf",
+    "page": 103
+   },
+   "parent_width_weights": [
+    409900,
+    1241600,
+    294100,
+    361200
+   ],
+   "parent_width_source_rounds": [
+    "2016/17"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2016.5
+  },
+  {
+   "title": "Survey 2022/23",
+   "sub": "aged 25 to 44, born 1978 to 1997",
+   "src": "Bildung in Zahlen 2024/25, table 5.1_9a",
+   "m": [
+    [
+     36.2,
+     42.3,
+     12.1,
+     9.4
+    ],
+    [
+     8.9,
+     54.1,
+     18.7,
+     18.3
+    ],
+    [
+     5.9,
+     20.8,
+     30.8,
+     42.5
+    ],
+    [
+     5.8,
+     11.7,
+     21.2,
+     61.3
+    ]
+   ],
+   "parent_population": [
+    395800,
+    1184300,
+    379000,
+    443300
+   ],
+   "parent_population_source": {
+    "counts": [
+     395800,
+     1184300,
+     379000,
+     443300
+    ],
+    "source_title": "Bildung in Zahlen 2024/25, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/BiZ-2024-25.pdf",
+    "page": 99
+   },
+   "parent_width_weights": [
+    395800,
+    1184300,
+    379000,
+    443300
+   ],
+   "parent_width_source_rounds": [
+    "2022/23"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2022.5
+  }
+ ],
+ "age_45_64": {
+  "2007": [
+   [
+    34.2,
+    54.5,
+    6.5,
+    4.8
+   ],
+   [
+    13.1,
+    67.4,
+    10.6,
+    8.9
+   ],
+   [
+    5.6,
+    27.8,
+    40.1,
+    26.5
+   ],
+   [
+    3.3,
+    16.3,
+    18.6,
+    61.8
+   ]
+  ],
+  "2011/12": [
+   [
+    29.2,
+    57.4,
+    8.7,
+    4.7
+   ],
+   [
+    10.8,
+    65.0,
+    14.1,
+    10.1
+   ],
+   [
+    2.8,
+    30.4,
+    32.5,
+    34.3
+   ],
+   [
+    1.6,
+    17.2,
+    21.8,
+    59.4
+   ]
+  ],
+  "2016/17": [
+   [
+    28.7,
+    57.7,
+    8.1,
+    5.6
+   ],
+   [
+    10.4,
+    65.7,
+    12.8,
+    11.1
+   ],
+   [
+    3.9,
+    26.9,
+    35.6,
+    33.6
+   ],
+   [
+    null,
+    10.9,
+    27.9,
+    57.6
+   ]
+  ],
+  "2022/23": [
+   [
+    29.3,
+    54.5,
+    9.2,
+    7.0
+   ],
+   [
+    8.1,
+    60.4,
+    17.1,
+    14.4
+   ],
+   [
+    6.6,
+    21.8,
+    28.1,
+    43.5
+   ],
+   [
+    2.9,
+    16.6,
+    22.4,
+    58.1
+   ]
+  ]
+ },
+ "matura_levels": [
+  "Below Matura",
+  "Matura or higher"
+ ],
+ "frames_matura_threshold": [
+  {
+   "title": "Survey 2007",
+   "sub": "aged 25 to 44, born 1963 to 1982",
+   "src": "AES 2007 report, Grafik 4",
+   "m": [
+    [
+     75.07677429097431,
+     24.92322570902569
+    ],
+    [
+     22.887772645619176,
+     77.11222735438082
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.8080919337150912,
+    0.19190806628490867
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2007.0
+  },
+  {
+   "title": "Survey 2011/12",
+   "sub": "aged 25 to 44, born 1967 to 1987",
+   "src": "AES 2011/12 report, Grafik 4",
+   "m": [
+    [
+     73.73538645593429,
+     26.2646135440657
+    ],
+    [
+     22.34832282378511,
+     77.65167717621489
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.764434776973792,
+    0.23556522302620791
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2011.5
+  },
+  {
+   "title": "Survey 2016/17",
+   "sub": "aged 25 to 44, born 1972 to 1992",
+   "src": "Bildung in Zahlen 2018/19, table 5.1_9a",
+   "m": [
+    [
+     69.75356342718742,
+     30.246436572812595
+    ],
+    [
+     21.612501705527798,
+     78.3874982944722
+    ]
+   ],
+   "parent_population": [
+    1651500,
+    655300
+   ],
+   "parent_population_source": {
+    "counts": [
+     409900,
+     1241600,
+     294100,
+     361200
+    ],
+    "source_title": "Bildung in Zahlen 2018/19, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/Bildung_in_Zahlen_2018_19_-_Schluesselindikatoren_und_Analysen.pdf",
+    "page": 103
+   },
+   "parent_width_weights": [
+    1651500,
+    655300
+   ],
+   "parent_width_source_rounds": [
+    "2016/17"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2016.5
+  },
+  {
+   "title": "Survey 2022/23",
+   "sub": "aged 25 to 44, born 1978 to 1997",
+   "src": "Bildung in Zahlen 2024/25, table 5.1_9a",
+   "m": [
+    [
+     66.8826023669388,
+     33.1173976330612
+    ],
+    [
+     21.740301593092546,
+     78.25969840690746
+    ]
+   ],
+   "parent_population": [
+    1580100,
+    822300
+   ],
+   "parent_population_source": {
+    "counts": [
+     395800,
+     1184300,
+     379000,
+     443300
+    ],
+    "source_title": "Bildung in Zahlen 2024/25, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/BiZ-2024-25.pdf",
+    "page": 99
+   },
+   "parent_width_weights": [
+    1580100,
+    822300
+   ],
+   "parent_width_source_rounds": [
+    "2022/23"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2022.5
+  }
+ ],
+ "degree_levels": [
+  "No degree",
+  "University or college degree"
+ ],
+ "frames_degree_threshold": [
+  {
+   "title": "Survey 2007",
+   "sub": "aged 25 to 44, born 1963 to 1982",
+   "src": "AES 2007 report, Grafik 4",
+   "m": [
+    [
+     88.59079956727697,
+     11.409200432723035
+    ],
+    [
+     48.2,
+     51.8
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.8876629585132706,
+    0.11233704148672935
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2007.0
+  },
+  {
+   "title": "Survey 2011/12",
+   "sub": "aged 25 to 44, born 1967 to 1987",
+   "src": "AES 2011/12 report, Grafik 4",
+   "m": [
+    [
+     85.3584218597348,
+     14.641578140265215
+    ],
+    [
+     44.199999999999996,
+     55.8
+    ]
+   ],
+   "parent_population": null,
+   "parent_population_source": null,
+   "parent_width_weights": [
+    0.8667055097283118,
+    0.1332944902716881
+   ],
+   "parent_width_source_rounds": [
+    "2016/17",
+    "2022/23"
+   ],
+   "parent_width_is_assumed": true,
+   "parent_width_method": "linear_extrapolation_of_group_shares",
+   "survey_year": 2011.5
+  },
+  {
+   "title": "Survey 2016/17",
+   "sub": "aged 25 to 44, born 1972 to 1992",
+   "src": "Bildung in Zahlen 2018/19, table 5.1_9a",
+   "m": [
+    [
+     83.32563830597856,
+     16.67436169402144
+    ],
+    [
+     42.7,
+     57.3
+    ]
+   ],
+   "parent_population": [
+    1945600,
+    361200
+   ],
+   "parent_population_source": {
+    "counts": [
+     409900,
+     1241600,
+     294100,
+     361200
+    ],
+    "source_title": "Bildung in Zahlen 2018/19, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/Bildung_in_Zahlen_2018_19_-_Schluesselindikatoren_und_Analysen.pdf",
+    "page": 103
+   },
+   "parent_width_weights": [
+    1945600,
+    361200
+   ],
+   "parent_width_source_rounds": [
+    "2016/17"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2016.5
+  },
+  {
+   "title": "Survey 2022/23",
+   "sub": "aged 25 to 44, born 1978 to 1997",
+   "src": "Bildung in Zahlen 2024/25, table 5.1_9a",
+   "m": [
+    [
+     78.81644122301057,
+     21.183558776989432
+    ],
+    [
+     38.69999999999999,
+     61.30000000000001
+    ]
+   ],
+   "parent_population": [
+    1959100,
+    443300
+   ],
+   "parent_population_source": {
+    "counts": [
+     395800,
+     1184300,
+     379000,
+     443300
+    ],
+    "source_title": "Bildung in Zahlen 2024/25, figure 5.1.9",
+    "source_url": "https://www.statistik.at/fileadmin/publications/BiZ-2024-25.pdf",
+    "page": 99
+   },
+   "parent_width_weights": [
+    1959100,
+    443300
+   ],
+   "parent_width_source_rounds": [
+    "2022/23"
+   ],
+   "parent_width_is_assumed": false,
+   "parent_width_method": "observed",
+   "survey_year": 2022.5
+  }
+ ]
+}

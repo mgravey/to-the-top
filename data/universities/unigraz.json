@@ -1,0 +1,181 @@
+{
+ "university": "Universität Graz",
+ "report_archive": "https://strategie.uni-graz.at/de/qualitaetsmanagement/analysen-und-berichte/",
+ "note": "Counts as published in the university Wissensbilanz (indicators II.1.3 / 1.A.3 / 1.A.2 for appointments, II.1.1 / 1.A.1 for professor headcount at 31 December), transcribed by research agents in Nov 2026. [women, total].",
+ "notes_2006_2015": "[women,total]; 2005 appointments from I.5.4 (scope uncertain); 2007 drop partly reclassification of visiting profs; 2016 report gives 2016 stock 49/186 vs first-round 45/184 (first-round 2016 = 31.12.2015?)",
+ "notes_2016_2025": "[women,total]; 1.A.2 totals; 2018 excludes 12 §99(4) appointments (4 women); unidata catalogue lists 1.A.1/1.A.2 per university with Excel export; 2016 stock corrected to 49/186 (2016 report, 31.12.2016); 45/184 is 31.12.2015",
+ "appointments": {
+  "2005": [
+   2,
+   9
+  ],
+  "2006": [
+   4,
+   8
+  ],
+  "2007": [
+   2,
+   8
+  ],
+  "2008": [
+   1,
+   14
+  ],
+  "2009": [
+   9,
+   26
+  ],
+  "2010": [
+   8,
+   22
+  ],
+  "2011": [
+   7,
+   24
+  ],
+  "2012": [
+   4,
+   16
+  ],
+  "2013": [
+   7,
+   14
+  ],
+  "2014": [
+   9,
+   28
+  ],
+  "2015": [
+   4,
+   22
+  ],
+  "2016": [
+   5,
+   20
+  ],
+  "2017": [
+   4,
+   19
+  ],
+  "2018": [
+   7,
+   13
+  ],
+  "2019": [
+   8,
+   17
+  ],
+  "2020": [
+   26,
+   58
+  ],
+  "2021": [
+   6,
+   23
+  ],
+  "2022": [
+   11,
+   20
+  ],
+  "2023": [
+   10,
+   19
+  ],
+  "2024": [
+   14,
+   30
+  ],
+  "2025": [
+   11,
+   30
+  ]
+ },
+ "professors": {
+  "2005": [
+   25,
+   155
+  ],
+  "2006": [
+   30,
+   158
+  ],
+  "2007": [
+   25,
+   141
+  ],
+  "2008": [
+   22,
+   135
+  ],
+  "2009": [
+   31,
+   147
+  ],
+  "2010": [
+   35,
+   154
+  ],
+  "2011": [
+   35,
+   159
+  ],
+  "2012": [
+   36,
+   160
+  ],
+  "2013": [
+   43,
+   167
+  ],
+  "2014": [
+   47,
+   183
+  ],
+  "2015": [
+   45,
+   184
+  ],
+  "2016": [
+   49,
+   186
+  ],
+  "2017": [
+   51,
+   194
+  ],
+  "2018": [
+   54,
+   204
+  ],
+  "2019": [
+   57,
+   201
+  ],
+  "2020": [
+   81,
+   235
+  ],
+  "2021": [
+   79,
+   236
+  ],
+  "2022": [
+   81,
+   236
+  ],
+  "2023": [
+   88,
+   244
+  ],
+  "2024": [
+   93,
+   259
+  ],
+  "2025": [
+   96,
+   264
+  ]
+ },
+ "derived": {},
+ "counts_inflated_years": []
+}

@@ -1,0 +1,241 @@
+{
+ "source": "Wissensbilanzen of the 22 Austrian public universities, 2006-2025; see data/universities/",
+ "national": [
+  {
+   "year": 2006,
+   "appointments_women": 38.99,
+   "appointments_total": 160.2,
+   "appointments_women_pct": 24.34,
+   "professors_women": 343,
+   "professors_total": 2201,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "Akademie der bildenden Künste Wien: total rescaled from 21 to 8, share kept",
+    "Universität Wien: total rescaled from 157 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2007,
+   "appointments_women": 44.46,
+   "appointments_total": 167.4,
+   "appointments_women_pct": 26.56,
+   "professors_women": 348,
+   "professors_total": 2209,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "Universität Wien: total rescaled from 101 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2008,
+   "appointments_women": 62.96,
+   "appointments_total": 216.4,
+   "appointments_women_pct": 29.1,
+   "professors_women": 367,
+   "professors_total": 2190,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "Universität Wien: total rescaled from 101 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2009,
+   "appointments_women": 62.49,
+   "appointments_total": 218.4,
+   "appointments_women_pct": 28.61,
+   "professors_women": 410,
+   "professors_total": 2192,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "Universität Wien: total rescaled from 107 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2010,
+   "appointments_women": 70.51,
+   "appointments_total": 248.4,
+   "appointments_women_pct": 28.38,
+   "professors_women": 439,
+   "professors_total": 2235,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "JKU Linz: women derived from a multi-year total",
+    "Universität Wien: total rescaled from 117 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2011,
+   "appointments_women": 72.27,
+   "appointments_total": 244.4,
+   "appointments_women_pct": 29.57,
+   "professors_women": 476,
+   "professors_total": 2311,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "Universität Wien: total rescaled from 108 to 50, share kept"
+   ]
+  },
+  {
+   "year": 2012,
+   "appointments_women": 77.5,
+   "appointments_total": 230.67,
+   "appointments_women_pct": 33.6,
+   "professors_women": 504,
+   "professors_total": 2336,
+   "universities_with_professor_count": 22,
+   "quality": "adjusted",
+   "notes": [
+    "JKU Linz: missing, filled from neighbouring years (2.5 of 11.7)"
+   ]
+  },
+  {
+   "year": 2013,
+   "appointments_women": 65,
+   "appointments_total": 199,
+   "appointments_women_pct": 32.66,
+   "professors_women": 522,
+   "professors_total": 2358,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2014,
+   "appointments_women": 64,
+   "appointments_total": 238,
+   "appointments_women_pct": 26.89,
+   "professors_women": 544,
+   "professors_total": 2423,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2015,
+   "appointments_women": 64,
+   "appointments_total": 228,
+   "appointments_women_pct": 28.07,
+   "professors_women": 558,
+   "professors_total": 2472,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2016,
+   "appointments_women": 74,
+   "appointments_total": 201,
+   "appointments_women_pct": 36.82,
+   "professors_women": 591,
+   "professors_total": 2499,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2017,
+   "appointments_women": 80,
+   "appointments_total": 204,
+   "appointments_women_pct": 39.22,
+   "professors_women": 624,
+   "professors_total": 2552,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2018,
+   "appointments_women": 87,
+   "appointments_total": 219,
+   "appointments_women_pct": 39.73,
+   "professors_women": 652,
+   "professors_total": 2617,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2019,
+   "appointments_women": 96,
+   "appointments_total": 277,
+   "appointments_women_pct": 34.66,
+   "professors_women": 700,
+   "professors_total": 2696,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2020,
+   "appointments_women": 159,
+   "appointments_total": 367,
+   "appointments_women_pct": 43.32,
+   "professors_women": 803,
+   "professors_total": 2879,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2021,
+   "appointments_women": 80,
+   "appointments_total": 243,
+   "appointments_women_pct": 32.92,
+   "professors_women": 844,
+   "professors_total": 2971,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2022,
+   "appointments_women": 104,
+   "appointments_total": 251,
+   "appointments_women_pct": 41.43,
+   "professors_women": 890,
+   "professors_total": 3029,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2023,
+   "appointments_women": 103.0,
+   "appointments_total": 256,
+   "appointments_women_pct": 40.23,
+   "professors_women": 958,
+   "professors_total": 3147,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2024,
+   "appointments_women": 102.0,
+   "appointments_total": 252,
+   "appointments_women_pct": 40.48,
+   "professors_women": 1025,
+   "professors_total": 3265,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  },
+  {
+   "year": 2025,
+   "appointments_women": 104.5,
+   "appointments_total": 234,
+   "appointments_women_pct": 44.66,
+   "professors_women": 1103,
+   "professors_total": 3384,
+   "universities_with_professor_count": 22,
+   "quality": "counted",
+   "notes": []
+  }
+ ]
+}

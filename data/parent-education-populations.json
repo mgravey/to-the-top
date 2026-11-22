@@ -1,0 +1,26 @@
+{
+  "unit": "survey-weighted people aged 25 to 44",
+  "category_order": ["Compulsory school", "Apprenticeship or VET school", "Matura (AHS/BHS)", "University or college degree"],
+  "rounds": {
+    "2007": null,
+    "2011/12": null,
+    "2016/17": {
+      "counts": [409900, 1241600, 294100, 361200],
+      "source_title": "Bildung in Zahlen 2018/19, figure 5.1.9",
+      "source_url": "https://www.statistik.at/fileadmin/publications/Bildung_in_Zahlen_2018_19_-_Schluesselindikatoren_und_Analysen.pdf",
+      "page": 103
+    },
+    "2022/23": {
+      "counts": [395800, 1184300, 379000, 443300],
+      "source_title": "Bildung in Zahlen 2024/25, figure 5.1.9",
+      "source_url": "https://www.statistik.at/fileadmin/publications/BiZ-2024-25.pdf",
+      "page": 99
+    }
+  },
+  "width_estimation": {
+    "method": "linear_group_shares",
+    "anchor_rounds": ["2016/17", "2022/23"],
+    "survey_years": {"2007": 2007.0, "2011/12": 2011.5, "2016/17": 2016.5, "2022/23": 2022.5}
+  },
+  "notes": "Totals transcribed from the labels above the parent-group bars in the official figures. These are weighted population estimates, not raw respondent counts. Verified totals for 2007 and 2011/12 remain null. Their column proportions are extrapolated linearly in calendar time from the normalized 2016/17 and 2022/23 group shares. Only width proportions are estimated; historical headcounts and conditional percentages are not inferred. Widths normalize over the four reported groups, excluding any unreported or unknown-parent category."
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who makes it to the top?</title>
+<meta name="description" content="Gender and family background on the road from school to professorship in Austria. Is the gender gap at the top a bias or a delay, and is gender still the right bias to fight?">
+<meta property="og:title" content="Who makes it to the top?">
+<meta property="og:description" content="Gender and family background on the road from school to professorship in Austria.">
+<meta property="og:type" content="article">
+<link rel="canonical" href="https://www.mgravey.com/to-the-top/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪜</text></svg>">
+<style>
+:root{
+  --bg:#ffffff; --fg:#1c1c1c; --mu:#5f5f5f; --bd:#e3e3e3; --soft:#f6f6f4; --accent:#2f6fed;
+  color-scheme:light dark;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0e0e0e; --fg:#ededed; --mu:#a6a6a6; --bd:#2c2c2c; --soft:#171717; --accent:#5b8dff}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.65 Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif}
+main{max-width:44rem;margin:0 auto;padding:3.5rem 16px 4rem}
+h1,h2,h3,.byline,figcaption,.note,table,summary,.kicker,footer{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mu);margin:0 0 .6rem}
+h1{font-size:clamp(2.1rem,6vw,3rem);line-height:1.08;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{font-size:1.2rem;color:var(--mu);margin:0 0 1rem;line-height:1.45}
+.byline{font-size:.9rem;color:var(--mu);margin-bottom:2.5rem}
+.byline a{color:inherit}
+.abstract{font-size:1.02rem;border-left:3px solid var(--accent);padding:.1rem 0 .1rem 1rem;margin:1.8rem 0 0}
+h2{font-size:1.45rem;line-height:1.25;margin:3.2rem 0 .8rem;letter-spacing:-.01em}
+h2 .n{color:var(--mu);font-weight:500;margin-right:.35em}
+p{margin:0 0 1.1rem}
+a{color:var(--accent)}
+strong{font-weight:700}
+.lede{font-size:1.15rem}
+figure{margin:2rem -16px;padding:0}
+figure img{display:block;width:100%;height:auto}
+@media (min-width:52rem){figure{margin:2.2rem -4rem}}
+figcaption{font-size:.85rem;color:var(--mu);padding:.6rem 16px 0;line-height:1.5}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:12px;margin:1.6rem 0 1.8rem;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.big div{background:var(--soft);border-radius:10px;padding:14px 16px}
+.big b{display:block;font-size:1.9rem;line-height:1.1;letter-spacing:-.02em}
+.big span{display:block;font-size:.85rem;color:var(--mu);line-height:1.35;margin-top:.3rem}
+blockquote{margin:1.6rem 0;padding:.2rem 0 .2rem 1.1rem;border-left:3px solid var(--accent);font-size:1.15rem}
+details{margin:1rem 0;border-top:1px solid var(--bd);padding-top:.6rem}
+summary{cursor:pointer;font-size:.92rem;color:var(--mu)}
+summary:hover{color:var(--fg)}
+.tw{overflow-x:auto;margin:.6rem 0 1rem}
+table{border-collapse:collapse;font-size:.85rem;font-variant-numeric:tabular-nums;width:100%}
+th,td{padding:.35rem .6rem;border-bottom:1px solid var(--bd);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{font-weight:600}
+.note{font-size:.9rem;color:var(--mu)}
+.closing{margin-top:3.5rem;padding:1.6rem 1.4rem;background:var(--soft);border-radius:12px}
+.closing h2{margin-top:0}
+.closing p:last-child{margin-bottom:0}
+footer{max-width:44rem;margin:0 auto;padding:0 16px 3rem;font-size:.85rem;color:var(--mu)}
+footer ul{padding-left:1.1rem}
+footer li{margin:.25rem 0}
+figure.switchable{position:relative}
+.seg{display:inline-flex;flex-wrap:wrap;margin:0 16px .6rem;border:1px solid var(--bd);border-radius:999px;padding:3px;gap:2px;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.seg button{font:inherit;font-size:.85rem;border:0;background:transparent;color:var(--mu);padding:.35rem .9rem;border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+figure.switchable object[hidden]{display:block!important;position:absolute;left:0;width:100%;visibility:hidden;pointer-events:none}
+figure object{display:block;width:100%;height:auto}
+.player,.hlbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:.55rem 16px 0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:.85rem}
+.player button,.hlbar button{font:inherit;border:1px solid var(--bd);background:var(--bg);color:var(--fg);padding:.3rem .8rem;border-radius:999px;cursor:pointer}
+.player button.main{background:var(--fg);color:var(--bg);border-color:var(--fg);width:2.4rem;height:2.4rem;padding:0;display:inline-flex;align-items:center;justify-content:center}
+.player button.main svg{display:block}
+.player button[aria-pressed="true"],.hlbar button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.player button:focus-visible,.hlbar button:focus-visible,.player input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.timeline-rounds{display:flex;flex-wrap:wrap;gap:8px;flex-basis:100%}
+.time-player output{min-width:4.5rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.player input[type=range]{flex:1;min-width:8rem;accent-color:var(--accent)}
+.player output{font-variant-numeric:tabular-nums;font-weight:600;min-width:3rem}
+.hlbar .lab{color:var(--mu)}
+</style>
+</head>
+<body>
+<main>
+
+<p class="kicker">Austria · school to professorship · 1960–2024</p>
+<h1>Who makes it to the top?</h1>
+<p class="sub">Gender and family background on the road from school to professorship in Austria</p>
+<p class="byline"><a href="https://www.mgravey.com">Mathieu Gravey</a> · November 2026 · <a href="https://github.com/mgravey/to-the-top">data and code</a></p>
+
+<p class="lede">Universities spend a lot of effort correcting gender bias: quotas on committees, targeted calls, equality plans. That effort was once badly needed. But the people climbing the ladder today are not the people of 1980. So is there still a gender bias to correct at the top, or are we looking at the slow arrival of change that has already happened lower down? And while we count women and men, are there other gaps that nobody counts?</p>
+
+<p class="abstract"><strong>In short.</strong> Measured the same way, the gender gap in reaching the Matura or a degree closed around 1980–2000 and has since flipped: today boys are behind, by about 8 %. The gap by parents' education has not closed. It is <strong>about three times larger</strong>: as large at the Matura as the gender gap of 1961, and larger for a degree than any gender gap on record.</p>
+
+<figure id="bias-overview">
+  <object data="figures/bias-comparison.svg" type="image/svg+xml" aria-label="Line chart, 1960 to 2024: share of people reaching Matura or a degree who would have to be swapped for every group to hold its population share. The gender gap falls from about 22 to 27 percent in the 1960s with girls behind, flips around 1982 for Matura and 2002 for a degree, and is about 8 percent with boys behind in 2024. The parents'-education gap for adults aged 25 to 44, surveys 2007 to 2022/23, stays at about 21 percent for Matura, the size of the gender gap in 1961, and 29 percent for a degree, above any gender gap since 1965." style="aspect-ratio:820/560"><img src="figures/bias-comparison.svg" alt="Line chart, 1960 to 2024: share of people reaching Matura or a degree who would have to be swapped for every group to hold its population share. The gender gap falls from about 22 to 27 percent in the 1960s with girls behind, flips around 1982 for Matura and 2002 for a degree, and is about 8 percent with boys behind in 2024. The parents'-education gap for adults aged 25 to 44, surveys 2007 to 2022/23, stays at about 21 percent for Matura, the size of the gender gap in 1961, and 29 percent for a degree, above any gender gap since 1965." width="820" height="560"></object>
+  <figcaption>The measure is the share of people reaching a step who would have to be swapped with someone from another group so that every group holds exactly its share of the population (0 = fair; the dissimilarity index). Gender uses yearly rates by sex; parents' education uses four parent groups among adults aged 25 to 44 in each Adult Education Survey, so it describes people who mostly left school 15 to 25 years before each survey. Details in <a href="#parent-education">section 5</a> and the <a href="#method">method</a>.</figcaption>
+</figure>
+
+<h2><span class="n">1</span>The path</h2>
+<p>Follow 100 Austrian children from age 10. In 2024, about half of the girls and a third of the boys passed the Matura, the school-leaving exam that opens university. About a third of girls and a quarter of boys got a first degree (33 against 23 in 100): <strong>about 40 % more girls than boys</strong>. One in five girls and one in seven boys got a master's. Then the funnel narrows sharply: between one and two in a hundred get a doctorate, and roughly <strong>one in a thousand</strong> becomes a professor.</p>
+<p>That last step is narrow above all because the job is rare. Austria has only about 3,300 university professors. In 2024 its universities appointed 252, about half of them from abroad. That leaves roughly 130 chairs a year for an age group of nearly 100,000 and for some 1,400 new Austrian doctors: <strong>about one chair for every ten new doctors</strong>. However talented the age group, the number of professors is set by the number of chairs.</p>
+<p>The higher the step, the more international the ladder becomes. In 2023/24, about a third of degrees at Austria's public universities (11,969 of 35,960) went to foreign students. Among doctorates the share rises to about 45 % (1,103 of 2,464). Of the professors appointed in 2020–22, <strong>about 48 % came from a post abroad</strong>, and that does not include foreigners who earned their doctorate in Austria. The path above therefore counts only Austrian students and only professors not hired from abroad. At the top, Austrian schools and universities supply only about half of the pool.</p>
+
+<figure class="switchable">
+  <div class="seg" role="group" aria-label="Vertical scale">
+    <button type="button" data-view="log" aria-pressed="true">Zoomed (log scale)</button>
+    <button type="button" data-view="lin" aria-pressed="false">Plain (linear scale)</button>
+  </div>
+  <object class="anim" data-view="log" data="figures/pipeline-log-all-steps-animated.svg" type="image/svg+xml" aria-label="Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a logarithmic scale." style="aspect-ratio:820/610"><img src="figures/pipeline-log-all-steps-animated.svg" alt="Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a logarithmic scale." width="820" height="610"></object>
+  <object class="anim" data-view="lin" data="figures/pipeline-linear-all-steps-animated.svg" type="image/svg+xml" aria-label="Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a linear scale." style="aspect-ratio:820/610" hidden><img src="figures/pipeline-linear-all-steps-animated.svg" alt="Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a linear scale." width="820" height="610"></object>
+  <figcaption data-view="log">Each line is one year's snapshot of the whole ladder, animated from 1960 to 2024. <strong>How to read the zoomed scale:</strong> each grid line is ten times smaller than the one above (100, 10, 1, 0.1 per 100 children), so the tiny numbers at the top of the ladder stay visible. The steeper the line, the bigger the share lost at that step. Doctorate and professor are counted (professor from 2006; dashed before that); school steps before 1990 are rough estimates; see <a href="#method">method</a>.</figcaption>
+  <figcaption data-view="lin" hidden>The same data on an ordinary scale. The gap between girls and boys at school and university is easy to see, but doctorate (about 1.5 per 100) and professor (about 0.1 per 100) almost vanish into the bottom line. Doctorate and professor are counted (professor from 2006; dashed before that); school steps before 1990 are rough estimates; see <a href="#method">method</a>.</figcaption>
+</figure>
+
+<h2><span class="n">2</span>Girls overtook boys a long time ago</h2>
+<p>The same data, shown as the share of girls among the people who reach each step, tell a story of a wave moving up the ladder. In 1970, girls were 34 % of those passing the Matura. They reached half in the early 1980s, and half of first degrees in the early 2000s. Today, <strong>about a third more girls than boys</strong> pass the Matura: 135 girls for every 100 boys. The same holds for degrees, with about 135 to 140 women for every 100 men. Higher up, men still lead: 84 women for every 100 men among new doctors, and 67 among new professors.</p>
+
+<div class="big">
+  <div><b>57 %</b><span>of those passing the Matura are girls</span></div>
+  <div><b>57 %</b><span>of new master's graduates are women</span></div>
+  <div><b>46 %</b><span>of new doctors are women</span></div>
+  <div><b>40 %</b><span>of new professors are women</span></div>
+</div>
+
+<figure class="switchable">
+  <div class="seg" role="group" aria-label="Chart view">
+    <button type="button" data-view="step" aria-pressed="true">Step by step</button>
+    <button type="button" data-view="time" aria-pressed="false">Over time</button>
+  </div>
+  <object class="anim" data-view="step" data="figures/girls-share-all-steps-animated.svg" type="image/svg+xml" aria-label="Animated chart: girls' and boys' share among the people reaching each step, Austria 1960 to 2024. The two lines add up to 100 percent. Girls became the majority at Matura and first degree; at doctorate and professor boys are still the majority." style="aspect-ratio:820/610"><img src="figures/girls-share-all-steps-animated.svg" alt="Animated chart: girls' and boys' share among the people reaching each step, Austria 1960 to 2024. The two lines add up to 100 percent. Girls became the majority at Matura and first degree; at doctorate and professor boys are still the majority." width="820" height="610"></object>
+  <object class="hl" data-view="time" data="figures/share-over-time.svg" type="image/svg+xml" aria-label="Line chart: girls' share (left axis) and boys' share (right axis) among the people reaching Matura, first degree, master's, doctorate and professorship, Austria 1960 to 2024. Matura and degrees cross 50 percent in the 1980s and 2000s; doctorate levels off around 40 percent; professor rises from 7 to 39 percent." style="aspect-ratio:820/560" hidden><img src="figures/share-over-time.svg" alt="Line chart: girls' and boys' share among the people reaching Matura, first degree, master's, doctorate and professorship, Austria 1960 to 2024, one step at a time. Matura and degrees cross 50 percent in the 1980s and 2000s; doctorate levels off around 40 percent; professor rises from 7 to 39 percent." width="820" height="560"></object>
+  <figcaption data-view="step">Out of every 100 people reaching each step, how many are girls (blue) and boys (green), 1960 to 2024. The two always add up to 100, so where the lines cross, there are as many girls as boys. School and university steps are computed from the rates per 100 children. Doctorate and professor are counted directly: women among all doctorates awarded, and women among all new professors at the 22 public universities (counted from 2006; hollow circles and dashed lines before that are estimates). Professor means new professors, not everyone in post.</figcaption>
+  <figcaption data-view="time" hidden>The same numbers with time along the bottom, one step at a time: pick the step with the buttons. Girls in blue, boys in green; the two always add up to 100. The thin horizontal lines mark the 2024 level, so you can see how far each earlier year was from today. The lower steps crossed parity one after the other, while the doctorate has stayed between 38 and 44 % women since about 2004.</figcaption>
+</figure>
+
+<p>Two things stand out. First, at school and university the imbalance now runs the other way: it is boys who fall behind, and by a wider margin than women at the doctorate. Second, the wave has not simply kept climbing. Women have been the majority of graduates for twenty years, yet their share of doctorates has stayed between 40 and 46 % since about 2004.</p>
+
+<h2><span class="n">3</span>Bias or delay?</h2>
+<p>A professorship lasts 30 to 35 years. The professors in post today were hired over the last three decades, mostly from doctorates awarded long before that. Even if hiring became perfectly balanced tomorrow, the share of women in post would take decades to follow, like a bathtub refilling through a narrow tap. I built a <a href="https://www.mgravey.com/Integrate-gender-ratio/">small calculator for this effect</a>.</p>
+<p>So the fair test is not “how many professors are women?” but “are women hired at their share of the people who could be hired?” The chart below compares the two directly. The solid violet line shows the share of women among doctorates in the year they were awarded. It takes about 15 years for those doctors to reach a chair, so the dashed violet line moves the same curve 15 years to the right: it is what new professors should look like if hiring simply followed the pool. The magenta line is what actually happened.</p>
+<p class="note"><strong>What is counted and what is estimated.</strong> Solid lines are published counts. Doctorates and professors in post come from Statistics Austria. New professors from 2006 on come from the annual reports (<em>Wissensbilanzen</em>) of all 22 public universities. Dashed lines are not counts: the expected new professors (dashed blue), new professors before 2006 (estimated from the change in professors in post) and the projection after 2025.</p>
+
+<figure>
+  <img src="figures/professor-lag.svg" alt="Line chart: women's share among doctorates at their award year and, dashed, the same curve 15 years later as the expected share among new professors; counted new professors from 2006 (estimated before) follow the dashed curve; professors in post lag behind and are projected to reach 38 percent by 2045. Austria 1980 to 2045." width="820" height="580">
+  <figcaption>New professors: all appointments to a professorship at the 22 public universities, 3-year mean; dots are single years. Before 2006 there are no counts: the dashed line is an estimate from the yearly change in professors in post. See <a href="#method">method</a>.</figcaption>
+</figure>
+
+<p>Across twenty years of counted appointments, from 2006 to 2025, the share of women among new professors has followed the share of women among doctorates from about fifteen years earlier, at <strong>about 0.94 times</strong> that share. Taken over five-year periods, hiring has never run above the pool of doctorates it draws from. In 2025, 45 % of new professors were women, the highest share so far and, for a single year, slightly above the doctorates of 2010 (42 %).</p>
+<p>Most of the gap among professors in post, 33 % women in 2025, is therefore <strong>delay, not current bias in hiring</strong>. The people hired today look like the doctorates of the years they come from. What is left is an inheritance from earlier decades, and it will retire on its own schedule.</p>
+
+<details>
+  <summary>Table: new professors against the doctorates of 15 years earlier (counted)</summary>
+  <div class="tw"><table>
+    <thead><tr><th>Years</th><th>New professors</th><th>Women among them</th><th>Doctorates 15 years earlier</th><th>Ratio</th><th>Professors in post, end of period</th></tr></thead>
+    <tbody>
+      <tr><td>2006–2010</td><td>1,011</td><td>27.6 %</td><td>28.3 %</td><td>0.98</td><td>19.6 %</td></tr>
+      <tr><td>2011–2015</td><td>1,140</td><td>30.1 %</td><td>35.0 %</td><td>0.86</td><td>22.6 %</td></tr>
+      <tr><td>2016–2020</td><td>1,268</td><td>39.1 %</td><td>40.7 %</td><td>0.96</td><td>27.9 %</td></tr>
+      <tr><td>2021–2025</td><td>1,236</td><td>39.9 %</td><td>42.4 %</td><td>0.94</td><td>32.6 %</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">A few 2006–2012 values are rescaled or filled in; see <a href="#method">method</a>. All counts by university and year are in <a href="https://github.com/mgravey/to-the-top/tree/master/data/universities">data/universities</a>, with each university's report archive.</p>
+</details>
+
+<h2><span class="n">4</span>Will it overshoot?</h2>
+<p>If the gap at the top is mostly delay, the next question is whether, at this speed, we will soon have the opposite problem. At the top, the data say <strong>no, not on current trends</strong>. Professors are recruited from doctorates, and the doctorate pool has been flat at 40–46 % women for twenty years. If hiring keeps following that pool as it has since 2006, the share of women among professors climbs to about 36 % by 2035 and 38 % by 2045 (dashed: a projection, not data), then levels off below parity. Because of the fifteen-year delay, the doctorates that will feed hiring until about 2038 have already been awarded. It would only overshoot if hiring started to favour women well beyond their share of doctorates, and twenty years of counted appointments show no sign of that.</p>
+<p>The opposite problem already exists, but lower down. <strong>A third more girls than boys</strong> now pass the Matura (57 % against 43 %). That gap is about twice the one at the doctorate, where men outnumber women by about a sixth (54 % against 46 %), and this time it is boys who are left behind. The one step where women still drop out faster than men is <strong>from master's to doctorate</strong>: 55 % of graduates are women, but 46 % of new doctors. That gap is happening now, not inherited, and it is not an effect of foreign students: among Austrians alone, 55 % of master's and diploma graduates are women but only 44 % of new doctors. Part of it may be field choice, which was not checked. If there is still a gender question in academia, that is where to look, not in professorial hiring.</p>
+<p>If the goal is 50/50 at the top, where should one act? <strong>Not at the Matura.</strong> For twenty years, women have been about 55 % of graduates, and the doctorate share has not followed: from a degree, women's odds of going on to a doctorate are about 0.6 times men's, and that ratio has barely moved since 2004. At that rate, parity among new doctors would need about 60 % women among graduates, some 150 women for every 100 men, which would deepen the gap that already leaves boys behind. <strong>Not at professor hiring either.</strong> Hiring already follows the pool of doctorates, at about 0.94 times its share of women. Forcing 50 % there while 46 % of new doctors are women would mean favouring women over the candidates who are actually available, and because professors stay in post for 30 years or more, it would change the faculty only slowly. <strong>The place to act is the doctorate.</strong> It is the one step where women still drop out faster than men today, it feeds the pool that professors are hired from, and a change there reaches new professors within about fifteen years.</p>
+
+<h2><span class="n">5</span>The gaps nobody counts</h2>
+<p>Austrian statistics count women and men at every step, every year, back to the 1950s. Gender is far from the only thing that can shape who climbs the ladder: family background, money, the language spoken at home, migration background, the region one grows up in, disability, and more. These are counted far less systematically. Take just one of them as an example: family background, measured by the parents' education. Statistics Austria's own report singles it out as having a considerable effect on the path through education, and it is one of the few with a series long enough to follow. Every five years or so, Statistics Austria's Adult Education Survey asks adults about their own education and their parents' education. The answer is a gap of a different order of magnitude:</p>
+
+<div class="big">
+  <div><b>61 in 100</b><span>children of graduates earn a degree</span></div>
+  <div><b>9 in 100</b><span>children of parents with compulsory schooling only</span></div>
+  <div><b>6.5×</b><span>the difference, for 25 to 44-year-olds in 2022/23</span></div>
+</div>
+
+<figure id="parent-education" class="switchable">
+  <div class="seg" role="group" aria-label="Education levels shown">
+    <button type="button" data-view="all" aria-pressed="true">All four levels</button>
+    <button type="button" data-view="matura" aria-pressed="false">Split at Matura</button>
+    <button type="button" data-view="degree" aria-pressed="false">Split at degree</button>
+  </div>
+  <object class="anim" data-view="all" data="figures/parent-education-animated.svg" type="image/svg+xml" aria-label="Packed mosaic: parents' education increases left to right and children's education bottom to top. Column widths represent survey-weighted parent-group population sizes in 2016/17 and 2022/23; 2007 and 2011/12 use approximate widths extrapolated in calendar time from the 2016/17 and 2022/23 group proportions. Tile heights show percentages within each parent group. Austrians aged 25 to 44, surveys 2007 to 2022/23." style="aspect-ratio:940/760"><img src="figures/parent-education-animated.svg" alt="Packed mosaic: parents' education increases left to right and children's education bottom to top. Column widths represent survey-weighted parent-group population sizes in 2016/17 and 2022/23; 2007 and 2011/12 use approximate widths extrapolated in calendar time from the 2016/17 and 2022/23 group proportions. Tile heights show percentages within each parent group. Austrians aged 25 to 44, surveys 2007 to 2022/23." width="940" height="760"></object>
+  <object class="anim" data-view="matura" data="figures/parent-education-matura-animated.svg" type="image/svg+xml" aria-label="Animated two-group mosaic: below Matura versus Matura or higher on both axes. Columns and merged percentages use parent-group population weights; 2007 and 2011/12 proportions are extrapolated. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23." style="aspect-ratio:940/760" hidden><img src="figures/parent-education-matura-animated.svg" alt="Animated two-group mosaic: below Matura versus Matura or higher on both axes. Columns and merged percentages use parent-group population weights; 2007 and 2011/12 proportions are extrapolated. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23." width="940" height="760"></object>
+  <object class="anim" data-view="degree" data="figures/parent-education-degree-animated.svg" type="image/svg+xml" aria-label="Animated two-group mosaic: no degree versus a university or college degree, on both axes. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23." style="aspect-ratio:940/760" hidden><img src="figures/parent-education-degree-animated.svg" alt="Animated two-group mosaic: no degree versus a university or college degree, on both axes. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23." width="940" height="760"></object>
+  <figcaption data-view="all">People aged 25 to 44 in four rounds of the Adult Education Survey, 2007 to 2022/23. Parents' education is the higher of the two parents. Column widths reflect the survey-weighted population in each parent group for 2016/17 and 2022/23; totals are printed above the columns. Tile heights and numbers show percentages within that group, so tile areas represent shares of the population covered by the four reported groups. For 2007 and 2011/12, parent-group proportions are extrapolated linearly in calendar time from the observed 2016/17 and 2022/23 proportions; column widths and tile areas are approximate. Their original within-group percentages are unchanged, and the labels above their columns show estimated group shares instead of historical headcounts. Children's education increases from bottom to top; parents' education increases from left to right. Play the continuous timeline or drag the year slider; values between survey rounds are interpolated estimates. Survey buttons jump to the published rounds.</figcaption>
+  <figcaption data-view="matura" hidden>The same comparison grouped at Matura, on both axes. Below Matura combines compulsory school and apprenticeship/VET; Matura or higher combines Matura and a university or college degree. The original parent groups are merged using their population proportions. For 2007 and 2011/12 these proportions are extrapolated, so both widths and merged percentages are estimates. Between survey rounds, source percentages are interpolated before grouping.</figcaption>
+  <figcaption data-view="degree" hidden>The same comparison split at a university degree, on both axes. No degree combines compulsory school, apprenticeship/VET and Matura; degree means a university, Fachhochschule or college degree. The parent groups are merged as in the previous figure.</figcaption>
+</figure>
+
+<p>Across fifteen years of surveys, more people in every group reached a degree. For children of parents with compulsory schooling only, the chance went from 6 to 9 in 100. For children of graduates, it went from 52 to 61. The ratio between the two fell from about 9 to 6.5, but the distance in percentage points <strong>grew from 46 to 52</strong>. The children of graduates gained more than the children who had the most ground to make up. Over the same decades, women's chance of a degree caught up with men's and overtook it; Statistics Austria dates the switch to the cohorts born after 1957.</p>
+<p>The same pattern shows at university entry. In 2024/25, 27 % of new Austrian university students had two parents with a degree, and only 2 % had two parents with compulsory schooling only. Compare that with gender today: no step on the ladder is further from parity than about 40 to 60, a ratio of 1.5 to 1. The family-background gap is several times larger, and in absolute terms it is still widening.</p>
+<p>Measured the same way as gender, as the share of places that would have to change hands for every group to hold its population share (the <a href="#bias-overview">figure at the top</a>), the gap by parents' education is about 21 % at the Matura and 29 % for a degree. The gender gap was last that large around 1961 at the Matura and has never been that large for a degree since 1965, the first year with data. Today the gender gap is about 8 % for both steps, and it is boys who are behind.</p>
+<p>No published Austrian data are available on doctorates or professorships by parents' education.</p>
+
+<details>
+  <summary>Table: share with a degree, by parents' education (per 100, aged 25 to 44)</summary>
+  <div class="tw"><table>
+    <thead><tr><th>Parents' education</th><th>2007</th><th>2011/12</th><th>2016/17</th><th>2022/23</th></tr></thead>
+    <tbody>
+      <tr><td>Compulsory school</td><td>5.9</td><td>6.6</td><td>6.9</td><td>9.4</td></tr>
+      <tr><td>Apprenticeship or VET school</td><td>10.8</td><td>12.6</td><td>15.9</td><td>18.3</td></tr>
+      <tr><td>Matura</td><td>29.8</td><td>41.0</td><td>33.6</td><td>42.5</td></tr>
+      <tr><td>Degree</td><td>51.8</td><td>55.8</td><td>57.3</td><td>61.3</td></tr>
+      <tr><td>Gap, degree vs compulsory</td><td>45.9 pts</td><td>49.2 pts</td><td>50.4 pts</td><td>51.9 pts</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">The full four-by-four tables, including the 45 to 64-year-olds, are in <a href="https://github.com/mgravey/to-the-top/blob/master/data/parent-education.json">data/parent-education.json</a>. The 2007 and 2011/12 rounds define the top category slightly differently ("university, Fachhochschule, and similar"), and measure parents' education when the respondent was 14 or 16. The Matura group is small, which explains its jumps.</p>
+</details>
+
+<section class="closing">
+  <h2>Is gender still the right bias to fight?</h2>
+  <p>The gender gap at the top of academia is real, but it is mostly the past retiring slowly. Today's hiring already reflects the pool, and the next real gender gaps are at the doctorate and at school, where boys now lag. The gap by family background is several times larger, is still widening in percentage points, and is not even measured at the top.</p>
+  <p>So the question is worth asking openly. Is gender still the bias that most needs fighting, or has it become the comfortable one? A gender policy can be fully satisfied by replacing a graduate's son with a graduate's daughter. The academic elite can champion it without giving up any of its own advantage. Fighting the bias of origin would cost that elite something: places for its own children.</p>
+  <blockquote>When we count only women and men, are we fixing the biggest bias, or the one that leaves the top untouched?</blockquote>
+  <p>I don't think the data settle that question. But they show that it deserves to be asked, and that we should start counting family background as carefully as we count gender.</p>
+</section>
+
+</main>
+
+<footer id="method">
+  <h2 style="font-size:1.1rem;margin:0 0 .6rem">Method and sources</h2>
+  <p>Every step is expressed per 100 people of one age group, by sex, so years and steps can be compared. Reliability varies by step and period:</p>
+  <ul>
+    <li><strong>Matura:</strong> official rate by sex from 1987. Interpolated from exam counts for 1970–1986, and estimated from birth cohorts in the education register for 1960–1969 (rough).</li>
+    <li><strong>First degree and master's:</strong> degrees by type, split by sex, from 1991. Estimated from register birth cohorts before that (rough, likely overstates women).</li>
+    <li><strong>Doctorate:</strong> counted doctorates by sex from 1981 (Statistics Austria), reduced to Austrian graduates: the Austrian share is published for recent years (2023: 57 % of men, 53 % of women) and interpolated back to about 90 % in 1990. The share charts use all doctorates, without this reduction.</li>
+    <li><strong>Professor:</strong> from 2006, counted new professors by sex at the 22 public universities × the share not appointed from abroad (about 52 %, the published 2020–2022 figure). Before 2006, an estimate: new professors by sex inferred from the change in professors in post, with the departure rates calibrated on the counted years (see the lag model below), × 52 %. The same estimate is used in every chart, so the lines join the counts in 2006. Placed at about age 43 (the German average age at first appointment; no Austrian figure was found). The share charts use all new professors, without the 52 % reduction.</li>
+    <li><strong>New professors:</strong> counted from the Wissensbilanzen of the 22 public universities, 2006–2025 (indicators II.1.3, 1.A.3 and 1.A.2, all appointments under §§ 98 and 99 UG, by year of taking up the post). Universität Wien 2006–2011 and Akademie der bildenden Künste 2006 rescaled to later years' totals (share kept); JKU 2012 filled from neighbouring years. 2005 and earlier: no counts exist (the first reports had no appointments indicator); the chart shows an estimate from the change in professors in post, with departure rates by sex (7.9 % women, 7.1 % men a year) calibrated on the counted years 2006–2024 (error 2.2 points, against 4.8 points with one equal rate), flagged as an estimate.</li>
+    <li><strong>Delay and projection:</strong> the delay of 15 years is the one that makes the ratio of counted hiring to earlier doctorates most stable over 2006–2025 (0.94). The projection is a model: number of professors and the 2021–2025 hiring rate held constant, women hired at 0.94 times their share of doctorates 15 years earlier; after 2038, at 0.94 times the 2019–2023 average.</li>
+    <li><strong>Birth counts</strong> for 1951–52 and 1961–69 are not from an official table; they agree with the published 1987 figure to within 1 %.</li>
+  </ul>
+  <p>Sources: Statistics Austria, <em>Bildung in Zahlen</em> 2024/25 (report and tables 1.1.5, 2.1.9, 2.1.10, 2.1_26, 2.2.5, 2.2_1, 2.2_2, 2.2_9, 2.2_13, 4.1_8, 5.1_9a/b) and 2023/24 (tables 3.8 and 3.12); Statistics Austria, Adult Education Survey 2007, 2011/12, 2016/17 and 2022/23 (survey reports and <em>Bildung in Zahlen</em> 2018/19); BMFWF, <em>Statistisches Taschenbuch</em> 2025; Wissensbilanzen of the 22 public universities, 2006–2025.</p>
+  <p>Code and data: <a href="https://github.com/mgravey/to-the-top">github.com/mgravey/to-the-top</a>. Related: <a href="https://www.mgravey.com/Integrate-gender-ratio/">how long does a hiring policy take to change a faculty?</a></p>
+</footer>
+<script src="scripts/parent_education_player.js"></script>
+<script>
+(function () {
+  var ICON = {
+    Play: '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg>',
+    Pause: '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect x="3.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/><rect x="9.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/></svg>',
+    Replay: '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3.2 8a4.8 4.8 0 1 0 1.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M2.5 1.8v3.6h3.6z" fill="currentColor"/></svg>'
+  };
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function svgOf(obj) {
+    try { var d = obj.contentDocument, e = d && d.documentElement; return e && e.nodeName.toLowerCase() === 'svg' ? e : null; } catch (err) { return null; }
+  }
+  function whenReady(obj, cb) {
+    var done = false, go = function () { var s = svgOf(obj); if (s && !done) { done = true; cb(s); } };
+    go(); obj.addEventListener('load', go);
+  }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+  function attach(obj, box) {
+    if (obj.dataset.view) box.dataset.view = obj.dataset.view;
+    box.hidden = obj.hidden;
+    obj.insertAdjacentElement('afterend', box);
+  }
+  // one player per figure: every animated chart in the same figure (e.g. log and linear views)
+  // shares the same clock, so switching views keeps the year and the play state
+  var players = [];
+  function playerFor(obj) {
+    var fig = obj.closest('figure') || obj, p = players.find(function (q) { return q.fig === fig; });
+    if (!p) { p = makePlayer(fig, obj); players.push(p); }
+    return p;
+  }
+  function makePlayer(fig, obj) {
+    var svgs = [], times, labels, n, end, t, playing = false, played = false, raf = 0, last = 0;
+    var box = el('div', 'player'), btn = el('button', 'main'), range = null, out = null, frames = [];
+    btn.type = 'button';
+    function idx() { var i = 0; while (i < n - 1 && times[i + 1] <= t + 1e-6) i++; return i; }
+    function show() {
+      svgs.forEach(function (s) { s.setCurrentTime(t); }); var i = idx();
+      if (range) { range.value = i; out.textContent = labels[i]; }
+      frames.forEach(function (b, k) { b.setAttribute('aria-pressed', String(k === i && !playing)); });
+      var st = playing ? 'Pause' : (i === n - 1 ? 'Replay' : 'Play');
+      if (btn.dataset.state !== st) { btn.dataset.state = st; btn.innerHTML = ICON[st]; btn.setAttribute('aria-label', st); btn.title = st; }
+    }
+    function tick(now) {
+      if (!playing) return;
+      t += (now - last) / 1000; last = now;
+      if (t >= end) { t = end; playing = false; }
+      show(); if (playing) raf = requestAnimationFrame(tick);
+    }
+    function play() { if (t >= times[n - 1]) t = times[0]; playing = played = true; last = performance.now(); show(); raf = requestAnimationFrame(tick); }
+    function pause() { playing = false; cancelAnimationFrame(raf); show(); }
+    function toggle() { playing ? pause() : play(); }
+    function seek(i) { pause(); t = times[i] + 0.02; show(); }
+    function build(svg) {
+      times = svg.getAttribute('data-times').split(',').map(Number); labels = svg.getAttribute('data-labels').split(',');
+      n = times.length; end = times[n - 1] + 0.05; t = end;
+      box.appendChild(btn);
+      if (n > 6) {
+        range = el('input'); range.type = 'range'; range.min = 0; range.max = n - 1; range.step = 1; range.value = n - 1;
+        range.setAttribute('aria-label', 'Year'); out = el('output');
+        box.appendChild(range); box.appendChild(out);
+        range.addEventListener('input', function () { seek(+range.value); });
+      } else {
+        labels.forEach(function (lab, i) {
+          var b = el('button', '', lab); b.type = 'button'; frames.push(b); box.appendChild(b);
+          b.addEventListener('click', function () { seek(i); });
+        });
+      }
+      btn.addEventListener('click', toggle);
+      var objs = fig.querySelectorAll('object.anim');
+      if (objs.length === 1) attach(objs[0], box); else objs[objs.length - 1].insertAdjacentElement('afterend', box);
+      if (!reduce && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (es, io) {
+          es.forEach(function (e) { if (e.isIntersecting && !played) { play(); io.disconnect(); } });
+        }, { threshold: 0.5 }).observe(objs[0]);
+      }
+    }
+    return {
+      fig: fig,
+      add: function (svg) {
+        if (!times) build(svg);
+        svg.pauseAnimations(); svg.style.cursor = 'pointer'; svg.addEventListener('click', toggle);
+        svgs.push(svg); show();
+      }
+    };
+  }
+  function highlighter(obj, svg) {
+    var steps = svg.getAttribute('data-steps').split(','), box = el('div', 'hlbar'), btns = [];
+    var cur = svg.getAttribute('data-hl') || '1';
+    box.appendChild(el('span', 'lab', 'Step:'));
+    steps.forEach(function (name, i) {
+      var b = el('button', '', name); b.type = 'button'; btns.push(b); box.appendChild(b);
+      b.setAttribute('aria-pressed', String(String(i + 1) === cur));
+      b.addEventListener('click', function () {
+        svg.setAttribute('data-hl', String(i + 1));
+        btns.forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      });
+    });
+    attach(obj, box);
+  }
+  var continuous = new Map();
+  document.querySelectorAll('object.anim').forEach(function (o) { whenReady(o, function (s) {
+    if (s.getAttribute('data-continuous') === 'parent-education' && window.ParentEducationTimeline) {
+      // All continuous charts in one figure share a single player, so switching views keeps the year.
+      var fig = o.closest('figure'), group = continuous.get(fig) || [];
+      continuous.set(fig, group); group.push({ o: o, s: s });
+      var objects = fig.querySelectorAll('object.anim');
+      if (group.length === objects.length) {
+        var ordered = Array.from(objects).map(function (x) { return group.find(function (g) { return g.o === x; }).s; });
+        window.ParentEducationTimeline.create(ordered, fig, { observe: true });
+      }
+    } else if (s.getAttribute('data-times')) playerFor(o).add(s);
+  }); });
+  document.querySelectorAll('object.hl').forEach(function (o) { whenReady(o, function (s) { if (s.getAttribute('data-steps')) highlighter(o, s); }); });
+})();
+</script>
+<script>
+document.querySelectorAll('figure.switchable').forEach(function (fig) {
+  fig.querySelectorAll('.seg button').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var s = btn.dataset.view;
+      fig.querySelectorAll('.seg button').forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
+      fig.querySelectorAll('[data-view]:not(button)').forEach(function (el) { el.hidden = el.dataset.view !== s; });
+    });
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Women's share at four stages of the academic ladder in Austria, animated from 1990 to 2023">
+<style>
+svg{--fg:#1c1c1c;--mu:#6b6b6b;--bd:#dddddd;--bg:#ffffff;--ln:#2f6fed;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){svg{--fg:#ededed;--mu:#a0a0a0;--bd:#333333;--bg:#0e0e0e;--ln:#5b8dff}}
+.bg{fill:var(--background,var(--bg))} text{fill:var(--foreground,var(--fg))} .m{fill:var(--muted-foreground,var(--mu))}
+.g{stroke:var(--border,var(--bd));stroke-width:1} .p{stroke:var(--muted-foreground,var(--mu));stroke-width:1;stroke-dasharray:2 4}
+.l{fill:none;stroke:var(--chart-1,var(--ln));stroke-width:3;stroke-linejoin:round} .d{fill:var(--chart-1,var(--ln))}
+.r{fill:none;stroke:var(--muted-foreground,var(--mu));stroke-width:1.5;stroke-dasharray:5 5}
+</style>
+<rect class="bg" width="720" height="450"/>
+<text x="16" y="28" font-size="17" font-weight="600">Women's share at each step of the academic ladder</text>
+<text x="16" y="48" font-size="13" class="m">Austria, 1990 to 2023. Above the dotted line, women are the majority.</text>
+<line class="g" x1="60" x2="680" y1="372.0" y2="372.0"/><text class="m" x="52" y="376.0" font-size="11" text-anchor="end">0 %</text>
+<line class="g" x1="60" x2="680" y1="332.6" y2="332.6"/><text class="m" x="52" y="336.6" font-size="11" text-anchor="end">10 %</text>
+<line class="g" x1="60" x2="680" y1="293.1" y2="293.1"/><text class="m" x="52" y="297.1" font-size="11" text-anchor="end">20 %</text>
+<line class="g" x1="60" x2="680" y1="253.7" y2="253.7"/><text class="m" x="52" y="257.7" font-size="11" text-anchor="end">30 %</text>
+<line class="g" x1="60" x2="680" y1="214.3" y2="214.3"/><text class="m" x="52" y="218.3" font-size="11" text-anchor="end">40 %</text>
+<line class="p" x1="60" x2="680" y1="174.9" y2="174.9"/><text class="m" x="52" y="178.9" font-size="11" text-anchor="end">50 %</text>
+<line class="g" x1="60" x2="680" y1="135.4" y2="135.4"/><text class="m" x="52" y="139.4" font-size="11" text-anchor="end">60 %</text>
+<line class="g" x1="60" x2="680" y1="96.0" y2="96.0"/><text class="m" x="52" y="100.0" font-size="11" text-anchor="end">70 %</text>
+<text class="m" x="680" y="168.9" font-size="11" text-anchor="end">parity</text>
+<text x="120" y="396" font-size="13" font-weight="600" text-anchor="middle">Matura</text>
+<text class="m" x="120" y="412" font-size="11" text-anchor="middle">school-leaving exam</text>
+<text x="280" y="396" font-size="13" font-weight="600" text-anchor="middle">University degree</text>
+<text class="m" x="280" y="412" font-size="11" text-anchor="middle">all levels</text>
+<text x="440" y="396" font-size="13" font-weight="600" text-anchor="middle">Doctorate</text>
+<text x="600" y="396" font-size="13" font-weight="600" text-anchor="middle">Professors</text>
+<text class="m" x="600" y="412" font-size="11" text-anchor="middle">in post that year</text>
+<path class="r" d="M120,170.0 L280,205.9 L440,267.4 L600,352.1"/><text class="m" x="610" y="356.1" font-size="11">1990</text>
+<path class="l" d="M120,150.4 L280,154.4 L440,192.3 L600,251.8"><animate attributeName="d" dur="18.80s" repeatCount="indefinite" keyTimes="0.0000;0.0239;0.0479;0.0718;0.0957;0.1197;0.1436;0.1676;0.1915;0.2154;0.2394;0.2633;0.2872;0.3112;0.3351;0.3590;0.3830;0.4069;0.4309;0.4548;0.4787;0.5027;0.5266;0.5505;0.5745;0.5984;0.6223;0.6463;0.6702;0.6941;0.7181;0.7420;0.7660;0.7899;1" values="M120,170.0 L280,205.9 L440,267.4 L600,352.1;M120,168.0 L280,204.6 L440,262.0 L600,352.5;M120,164.3 L280,203.3 L440,272.2 L600,350.6;M120,162.7 L280,202.9 L440,259.1 L600,351.0;M120,160.3 L280,200.4 L440,258.1 L600,348.3;M120,161.9 L280,199.6 L440,250.1 L600,346.1;M120,160.0 L280,196.6 L440,237.8 L600,344.7;M120,156.1 L280,190.0 L440,241.3 L600,344.5;M120,154.2 L280,181.1 L440,236.9 L600,341.7;M120,152.5 L280,181.7 L440,229.3 L600,336.9;M120,152.7 L280,173.1 L440,225.0 L600,330.3;M120,151.4 L280,170.8 L440,224.3 L600,330.0;M120,149.0 L280,167.0 L440,210.7 L600,326.4;M120,148.3 L280,168.5 L440,213.3 L600,321.8;M120,149.6 L280,156.3 L440,200.8 L600,316.2;M120,147.4 L280,159.6 L440,208.5 L600,312.4;M120,147.9 L280,153.9 L440,205.5 L600,310.1;M120,149.9 L280,151.2 L440,204.6 L600,309.7;M120,149.3 L280,151.9 L440,200.6 L600,305.8;M120,148.9 L280,154.5 L440,203.8 L600,298.3;M120,149.1 L280,154.3 L440,208.0 L600,294.6;M120,147.9 L280,149.1 L440,207.1 L600,290.7;M120,148.9 L280,143.0 L440,199.8 L600,286.8;M120,148.9 L280,150.9 L440,207.2 L600,284.6;M120,150.5 L280,154.3 L440,200.5 L600,283.4;M120,146.8 L280,155.4 L440,205.4 L600,282.8;M120,147.6 L280,153.6 L440,193.1 L600,278.6;M120,148.1 L280,158.5 L440,198.4 L600,275.6;M120,150.1 L280,156.9 L440,205.5 L600,273.7;M120,151.4 L280,156.9 L440,209.6 L600,269.5;M120,149.9 L280,154.8 L440,213.8 L600,261.9;M120,148.1 L280,158.0 L440,201.1 L600,260.1;M120,148.4 L280,158.0 L440,202.2 L600,256.1;M120,150.4 L280,154.4 L440,192.3 L600,251.8;M120,150.4 L280,154.4 L440,192.3 L600,251.8"/></path>
+<circle class="d" cx="120" cy="150.4" r="5"><animate attributeName="cy" dur="18.80s" repeatCount="indefinite" keyTimes="0.0000;0.0239;0.0479;0.0718;0.0957;0.1197;0.1436;0.1676;0.1915;0.2154;0.2394;0.2633;0.2872;0.3112;0.3351;0.3590;0.3830;0.4069;0.4309;0.4548;0.4787;0.5027;0.5266;0.5505;0.5745;0.5984;0.6223;0.6463;0.6702;0.6941;0.7181;0.7420;0.7660;0.7899;1" values="170.0;168.0;164.3;162.7;160.3;161.9;160.0;156.1;154.2;152.5;152.7;151.4;149.0;148.3;149.6;147.4;147.9;149.9;149.3;148.9;149.1;147.9;148.9;148.9;150.5;146.8;147.6;148.1;150.1;151.4;149.9;148.1;148.4;150.4;150.4"/></circle>
+<circle class="d" cx="280" cy="154.4" r="5"><animate attributeName="cy" dur="18.80s" repeatCount="indefinite" keyTimes="0.0000;0.0239;0.0479;0.0718;0.0957;0.1197;0.1436;0.1676;0.1915;0.2154;0.2394;0.2633;0.2872;0.3112;0.3351;0.3590;0.3830;0.4069;0.4309;0.4548;0.4787;0.5027;0.5266;0.5505;0.5745;0.5984;0.6223;0.6463;0.6702;0.6941;0.7181;0.7420;0.7660;0.7899;1" values="205.9;204.6;203.3;202.9;200.4;199.6;196.6;190.0;181.1;181.7;173.1;170.8;167.0;168.5;156.3;159.6;153.9;151.2;151.9;154.5;154.3;149.1;143.0;150.9;154.3;155.4;153.6;158.5;156.9;156.9;154.8;158.0;158.0;154.4;154.4"/></circle>
+<circle class="d" cx="440" cy="192.3" r="5"><animate attributeName="cy" dur="18.80s" repeatCount="indefinite" keyTimes="0.0000;0.0239;0.0479;0.0718;0.0957;0.1197;0.1436;0.1676;0.1915;0.2154;0.2394;0.2633;0.2872;0.3112;0.3351;0.3590;0.3830;0.4069;0.4309;0.4548;0.4787;0.5027;0.5266;0.5505;0.5745;0.5984;0.6223;0.6463;0.6702;0.6941;0.7181;0.7420;0.7660;0.7899;1" values="267.4;262.0;272.2;259.1;258.1;250.1;237.8;241.3;236.9;229.3;225.0;224.3;210.7;213.3;200.8;208.5;205.5;204.6;200.6;203.8;208.0;207.1;199.8;207.2;200.5;205.4;193.1;198.4;205.5;209.6;213.8;201.1;202.2;192.3;192.3"/></circle>
+<circle class="d" cx="600" cy="251.8" r="5"><animate attributeName="cy" dur="18.80s" repeatCount="indefinite" keyTimes="0.0000;0.0239;0.0479;0.0718;0.0957;0.1197;0.1436;0.1676;0.1915;0.2154;0.2394;0.2633;0.2872;0.3112;0.3351;0.3590;0.3830;0.4069;0.4309;0.4548;0.4787;0.5027;0.5266;0.5505;0.5745;0.5984;0.6223;0.6463;0.6702;0.6941;0.7181;0.7420;0.7660;0.7899;1" values="352.1;352.5;350.6;351.0;348.3;346.1;344.7;344.5;341.7;336.9;330.3;330.0;326.4;321.8;316.2;312.4;310.1;309.7;305.8;298.3;294.6;290.7;286.8;284.6;283.4;282.8;278.6;275.6;273.7;269.5;261.9;260.1;256.1;251.8;251.8"/></circle>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="visible;hidden" keyTimes="0;0.0239"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1990</text>
+<text x="120" y="157.0" font-size="14" font-weight="600" text-anchor="middle">51 %</text>
+<text x="280" y="192.9" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="440" y="254.4" font-size="14" font-weight="600" text-anchor="middle">27 %</text>
+<text x="600" y="339.1" font-size="14" font-weight="600" text-anchor="middle">5 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.0239;0.0479"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1991</text>
+<text x="120" y="155.0" font-size="14" font-weight="600" text-anchor="middle">52 %</text>
+<text x="280" y="191.6" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="440" y="249.0" font-size="14" font-weight="600" text-anchor="middle">28 %</text>
+<text x="600" y="339.5" font-size="14" font-weight="600" text-anchor="middle">5 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.0479;0.0718"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1992</text>
+<text x="120" y="151.3" font-size="14" font-weight="600" text-anchor="middle">53 %</text>
+<text x="280" y="190.3" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="440" y="259.2" font-size="14" font-weight="600" text-anchor="middle">25 %</text>
+<text x="600" y="337.6" font-size="14" font-weight="600" text-anchor="middle">5 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.0718;0.0957"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1993</text>
+<text x="120" y="149.7" font-size="14" font-weight="600" text-anchor="middle">53 %</text>
+<text x="280" y="189.9" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="440" y="246.1" font-size="14" font-weight="600" text-anchor="middle">29 %</text>
+<text x="600" y="338.0" font-size="14" font-weight="600" text-anchor="middle">5 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.0957;0.1197"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1994</text>
+<text x="120" y="147.3" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="280" y="187.4" font-size="14" font-weight="600" text-anchor="middle">44 %</text>
+<text x="440" y="245.1" font-size="14" font-weight="600" text-anchor="middle">29 %</text>
+<text x="600" y="335.3" font-size="14" font-weight="600" text-anchor="middle">6 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.1197;0.1436"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1995</text>
+<text x="120" y="148.9" font-size="14" font-weight="600" text-anchor="middle">53 %</text>
+<text x="280" y="186.6" font-size="14" font-weight="600" text-anchor="middle">44 %</text>
+<text x="440" y="237.1" font-size="14" font-weight="600" text-anchor="middle">31 %</text>
+<text x="600" y="333.1" font-size="14" font-weight="600" text-anchor="middle">7 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.1436;0.1676"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1996</text>
+<text x="120" y="147.0" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="280" y="183.6" font-size="14" font-weight="600" text-anchor="middle">44 %</text>
+<text x="440" y="224.8" font-size="14" font-weight="600" text-anchor="middle">34 %</text>
+<text x="600" y="331.7" font-size="14" font-weight="600" text-anchor="middle">7 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.1676;0.1915"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1997</text>
+<text x="120" y="143.1" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="280" y="177.0" font-size="14" font-weight="600" text-anchor="middle">46 %</text>
+<text x="440" y="228.3" font-size="14" font-weight="600" text-anchor="middle">33 %</text>
+<text x="600" y="331.5" font-size="14" font-weight="600" text-anchor="middle">7 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.1915;0.2154"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1998</text>
+<text x="120" y="141.2" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="280" y="168.1" font-size="14" font-weight="600" text-anchor="middle">48 %</text>
+<text x="440" y="223.9" font-size="14" font-weight="600" text-anchor="middle">34 %</text>
+<text x="600" y="328.7" font-size="14" font-weight="600" text-anchor="middle">8 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.2154;0.2394"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">1999</text>
+<text x="120" y="139.5" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="168.7" font-size="14" font-weight="600" text-anchor="middle">48 %</text>
+<text x="440" y="216.3" font-size="14" font-weight="600" text-anchor="middle">36 %</text>
+<text x="600" y="323.9" font-size="14" font-weight="600" text-anchor="middle">9 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.2394;0.2633"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2000</text>
+<text x="120" y="139.7" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="160.1" font-size="14" font-weight="600" text-anchor="middle">50 %</text>
+<text x="440" y="212.0" font-size="14" font-weight="600" text-anchor="middle">37 %</text>
+<text x="600" y="317.3" font-size="14" font-weight="600" text-anchor="middle">11 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.2633;0.2872"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2001</text>
+<text x="120" y="138.4" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="157.8" font-size="14" font-weight="600" text-anchor="middle">51 %</text>
+<text x="440" y="211.3" font-size="14" font-weight="600" text-anchor="middle">37 %</text>
+<text x="600" y="317.0" font-size="14" font-weight="600" text-anchor="middle">11 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.2872;0.3112"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2002</text>
+<text x="120" y="136.0" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="154.0" font-size="14" font-weight="600" text-anchor="middle">52 %</text>
+<text x="440" y="197.7" font-size="14" font-weight="600" text-anchor="middle">41 %</text>
+<text x="600" y="313.4" font-size="14" font-weight="600" text-anchor="middle">12 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.3112;0.3351"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2003</text>
+<text x="120" y="135.3" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="155.5" font-size="14" font-weight="600" text-anchor="middle">52 %</text>
+<text x="440" y="200.3" font-size="14" font-weight="600" text-anchor="middle">40 %</text>
+<text x="600" y="308.8" font-size="14" font-weight="600" text-anchor="middle">13 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.3351;0.3590"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2004</text>
+<text x="120" y="136.6" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="143.3" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="187.8" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="303.2" font-size="14" font-weight="600" text-anchor="middle">14 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.3590;0.3830"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2005</text>
+<text x="120" y="134.4" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="146.6" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="440" y="195.5" font-size="14" font-weight="600" text-anchor="middle">41 %</text>
+<text x="600" y="299.4" font-size="14" font-weight="600" text-anchor="middle">15 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.3830;0.4069"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2006</text>
+<text x="120" y="134.9" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="140.9" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="192.5" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="297.1" font-size="14" font-weight="600" text-anchor="middle">16 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.4069;0.4309"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2007</text>
+<text x="120" y="136.9" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="138.2" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="440" y="191.6" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="296.7" font-size="14" font-weight="600" text-anchor="middle">16 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.4309;0.4548"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2008</text>
+<text x="120" y="136.3" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="138.9" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="440" y="187.6" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="292.8" font-size="14" font-weight="600" text-anchor="middle">17 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.4548;0.4787"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2009</text>
+<text x="120" y="135.9" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="141.5" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="190.8" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="285.3" font-size="14" font-weight="600" text-anchor="middle">19 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.4787;0.5027"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2010</text>
+<text x="120" y="136.1" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="141.3" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="195.0" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="281.6" font-size="14" font-weight="600" text-anchor="middle">20 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.5027;0.5266"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2011</text>
+<text x="120" y="134.9" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="136.1" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="440" y="194.1" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="277.7" font-size="14" font-weight="600" text-anchor="middle">21 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.5266;0.5505"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2012</text>
+<text x="120" y="135.9" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="130.0" font-size="14" font-weight="600" text-anchor="middle">58 %</text>
+<text x="440" y="186.8" font-size="14" font-weight="600" text-anchor="middle">44 %</text>
+<text x="600" y="273.8" font-size="14" font-weight="600" text-anchor="middle">22 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.5505;0.5745"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2013</text>
+<text x="120" y="135.9" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="137.9" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="440" y="194.2" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="271.6" font-size="14" font-weight="600" text-anchor="middle">22 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.5745;0.5984"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2014</text>
+<text x="120" y="137.5" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="141.3" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="187.5" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="270.4" font-size="14" font-weight="600" text-anchor="middle">22 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.5984;0.6223"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2015</text>
+<text x="120" y="133.8" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="142.4" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="192.4" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="269.8" font-size="14" font-weight="600" text-anchor="middle">23 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.6223;0.6463"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2016</text>
+<text x="120" y="134.6" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="140.6" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="180.1" font-size="14" font-weight="600" text-anchor="middle">45 %</text>
+<text x="600" y="265.6" font-size="14" font-weight="600" text-anchor="middle">24 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.6463;0.6702"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2017</text>
+<text x="120" y="135.1" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="145.5" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="440" y="185.4" font-size="14" font-weight="600" text-anchor="middle">44 %</text>
+<text x="600" y="262.6" font-size="14" font-weight="600" text-anchor="middle">24 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.6702;0.6941"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2018</text>
+<text x="120" y="137.1" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="143.9" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="192.5" font-size="14" font-weight="600" text-anchor="middle">42 %</text>
+<text x="600" y="260.7" font-size="14" font-weight="600" text-anchor="middle">25 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.6941;0.7181"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2019</text>
+<text x="120" y="138.4" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="143.9" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="196.6" font-size="14" font-weight="600" text-anchor="middle">41 %</text>
+<text x="600" y="256.5" font-size="14" font-weight="600" text-anchor="middle">26 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.7181;0.7420"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2020</text>
+<text x="120" y="136.9" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="141.8" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="200.8" font-size="14" font-weight="600" text-anchor="middle">40 %</text>
+<text x="600" y="248.9" font-size="14" font-weight="600" text-anchor="middle">28 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.7420;0.7660"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2021</text>
+<text x="120" y="135.1" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="145.0" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="440" y="188.1" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="247.1" font-size="14" font-weight="600" text-anchor="middle">28 %</text>
+</g>
+<g visibility="hidden"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible;hidden" keyTimes="0;0.7660;0.7899"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2022</text>
+<text x="120" y="135.4" font-size="14" font-weight="600" text-anchor="middle">57 %</text>
+<text x="280" y="145.0" font-size="14" font-weight="600" text-anchor="middle">54 %</text>
+<text x="440" y="189.2" font-size="14" font-weight="600" text-anchor="middle">43 %</text>
+<text x="600" y="243.1" font-size="14" font-weight="600" text-anchor="middle">29 %</text>
+</g>
+<g visibility="visible"><animate attributeName="visibility" calcMode="discrete" dur="18.80s" repeatCount="indefinite" values="hidden;visible" keyTimes="0;0.7899"/>
+<text x="680" y="80" font-size="34" font-weight="700" text-anchor="end">2023</text>
+<text x="120" y="137.4" font-size="14" font-weight="600" text-anchor="middle">56 %</text>
+<text x="280" y="141.4" font-size="14" font-weight="600" text-anchor="middle">55 %</text>
+<text x="440" y="179.3" font-size="14" font-weight="600" text-anchor="middle">46 %</text>
+<text x="600" y="238.8" font-size="14" font-weight="600" text-anchor="middle">30 %</text>
+</g>
+</svg>
