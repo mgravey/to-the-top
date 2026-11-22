@@ -1,0 +1,38 @@
+# Who makes it to the top?
+
+> A data essay by Mathieu Gravey on gender and family background on the road from school to professorship in Austria, 1960–2024. Measured the same way, the gender gap in reaching the Matura or a university degree closed around 1980–2000 and has since flipped (boys are now behind, by about 8 %). The gap by parents' education has not closed and is about three times larger.
+
+- Page: https://mgravey.com/to-the-top/
+- Full text as Markdown (generated from the page): https://mgravey.com/to-the-top/llms-full.txt
+- Code and data: https://github.com/mgravey/to-the-top
+- Author and main website: [Mathieu Gravey](https://mgravey.com/) ([llms.txt](https://mgravey.com/llms.txt))
+
+## Key findings
+
+- **The path (2024, per 100 Austrians of one age group):** about half of girls and a third of boys pass the Matura; 33 girls and 23 boys get a first degree; one to two in 100 get a doctorate; about one in 1,000 becomes a professor. Austria has about 3,300 professors; in 2024 universities appointed 252, about half from abroad.
+- **Girls overtook boys:** girls were 34 % of those passing the Matura in 1970, half in the early 1980s, and are 57 % today. Women are 57 % of new master's graduates, 46 % of new doctors and 40 % of new professors.
+- **Bias or delay at the top:** across counted appointments 2006–2025 (all 22 public universities), women's share among new professors has followed their share among doctorates about 15 years earlier, at about 0.94 times that share. 45 % of new professors in 2025 were women; 33 % of professors in post. The gap among professors in post is mostly delay, not current hiring bias.
+- **No overshoot at the top:** doctorates have been 40–46 % women since about 2004, so the projected share of women among professors reaches about 36 % in 2035 and 38 % in 2045 (model, not data).
+- **Where women still drop out faster:** from master's to doctorate (55 % of graduates, 46 % of new doctors; among Austrians 55 % and 44 %). From a degree, women's odds of a doctorate are about 0.6 times men's, unchanged since 2004.
+- **Parents' education (Adult Education Survey, ages 25–44, 2022/23):** 61 in 100 children of graduates hold a degree, against 9 in 100 children of parents with compulsory schooling only (6.5 times). The gap in percentage points grew from 46 (2007) to 52 (2022/23).
+- **Same measure for both gaps (dissimilarity index: share of places that would have to change hands for every group to hold its population share):** parents' education 21 % for Matura and 29 % for a degree; gender about 8 % for both in 2024, with boys behind. The parental gap at the Matura equals the gender gap of 1961; for a degree it is larger than any gender gap since 1965, the first year with data.
+- **Not available:** no published Austrian data on doctorates or professorships by parents' education.
+
+## Data and method
+
+- Statistics Austria, *Bildung in Zahlen* 2024/25 and 2023/24 (Matura rates, degrees, doctorates, professors, education register).
+- Statistics Austria, Adult Education Survey 2007, 2011/12, 2016/17, 2022/23 (own education by parents' education).
+- Wissensbilanzen (annual reports) of the 22 Austrian public universities, 2006–2025 (appointments by sex).
+- BMFWF, *Statistisches Taschenbuch* 2025.
+- Rates before 1990 for school and university steps, and new professors before 2006, are estimates; the method section of the page lists the reliability of each step.
+
+## Data files
+
+- [Gender series, per 100 by sex, 1960–2024](https://github.com/mgravey/to-the-top/blob/master/data/series.json)
+- [Parents' education matrices (AES), with population weights](https://github.com/mgravey/to-the-top/blob/master/data/parent-education.json)
+- [Gap comparison (dissimilarity index, odds ratios)](https://github.com/mgravey/to-the-top/blob/master/data/bias-comparison.json)
+- [Counted professor appointments by university and year](https://github.com/mgravey/to-the-top/tree/master/data/universities)
+
+## Optional
+
+- [Integration effect on gender ratio](https://mgravey.com/Integrate-gender-ratio/): interactive model of how long a hiring policy takes to change the gender ratio of a faculty.

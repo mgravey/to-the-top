@@ -2,7 +2,7 @@
 
 Gender and family background on the road from school to professorship in Austria.
 
-Live page: https://www.mgravey.com/to-the-top/
+Live page: https://mgravey.com/to-the-top/
 
 `index.html` is the page; `figures/` holds the SVG charts, built from `data/` by the scripts in `scripts/` (see `NOTES.md` for how to rebuild them and how each number is made).
 

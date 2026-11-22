@@ -1,0 +1,141 @@
+# Who makes it to the top?
+
+Source page: https://mgravey.com/to-the-top/
+Author: Mathieu Gravey (https://mgravey.com/)
+Code and data: https://github.com/mgravey/to-the-top
+This file is generated from the page by scripts/llms_full.py.
+
+
+*Gender and family background on the road from school to professorship in Austria*
+
+*[Mathieu Gravey](https://mgravey.com/) · November 2026 · [data and code](https://github.com/mgravey/to-the-top)*
+
+Universities spend a lot of effort correcting gender bias: quotas on committees, targeted calls, equality plans. That effort was once badly needed. But the people climbing the ladder today are not the people of 1980. So is there still a gender bias to correct at the top, or are we looking at the slow arrival of change that has already happened lower down? And while we count women and men, are there other gaps that nobody counts?
+
+**In short.** Measured the same way, the gender gap in reaching the Matura or a degree closed around 1980–2000 and has since flipped: today boys are behind, by about 8 %. The gap by parents' education has not closed. It is **about three times larger**: as large at the Matura as the gender gap of 1961, and larger for a degree than any gender gap on record.
+
+**Figure.** Line chart, 1960 to 2024: share of people reaching Matura or a degree who would have to be swapped for every group to hold its population share. The gender gap falls from about 22 to 27 percent in the 1960s with girls behind, flips around 1982 for Matura and 2002 for a degree, and is about 8 percent with boys behind in 2024. The parents'-education gap for adults aged 25 to 44, surveys 2007 to 2022/23, stays at about 21 percent for Matura, the size of the gender gap in 1961, and 29 percent for a degree, above any gender gap since 1965. The measure is the share of people reaching a step who would have to be swapped with someone from another group so that every group holds exactly its share of the population (0 = fair; the dissimilarity index). Gender uses yearly rates by sex; parents' education uses four parent groups among adults aged 25 to 44 in each Adult Education Survey, so it describes people who mostly left school 15 to 25 years before each survey. Details in section 5 and the method.
+
+## The path
+
+Follow 100 Austrian children from age 10. In 2024, about half of the girls and a third of the boys passed the Matura, the school-leaving exam that opens university. About a third of girls and a quarter of boys got a first degree (33 against 23 in 100): **about 40 % more girls than boys**. One in five girls and one in seven boys got a master's. Then the funnel narrows sharply: between one and two in a hundred get a doctorate, and roughly **one in a thousand** becomes a professor.
+
+That last step is narrow above all because the job is rare. Austria has only about 3,300 university professors. In 2024 its universities appointed 252, about half of them from abroad. That leaves roughly 130 chairs a year for an age group of nearly 100,000 and for some 1,400 new Austrian doctors: **about one chair for every ten new doctors**. However talented the age group, the number of professors is set by the number of chairs.
+
+The higher the step, the more international the ladder becomes. In 2023/24, about a third of degrees at Austria's public universities (11,969 of 35,960) went to foreign students. Among doctorates the share rises to about 45 % (1,103 of 2,464). Of the professors appointed in 2020–22, **about 48 % came from a post abroad**, and that does not include foreigners who earned their doctorate in Austria. The path above therefore counts only Austrian students and only professors not hired from abroad. At the top, Austrian schools and universities supply only about half of the pool.
+
+**Figure.** Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a logarithmic scale.
+
+**Figure.** Animated chart: per 100 girls and 100 boys in Austria, how many reach each step from age 10 to a professorship, 1960 to 2024, on a linear scale.
+
+## Girls overtook boys a long time ago
+
+The same data, shown as the share of girls among the people who reach each step, tell a story of a wave moving up the ladder. In 1970, girls were 34 % of those passing the Matura. They reached half in the early 1980s, and half of first degrees in the early 2000s. Today, **about a third more girls than boys** pass the Matura: 135 girls for every 100 boys. The same holds for degrees, with about 135 to 140 women for every 100 men. Higher up, men still lead: 84 women for every 100 men among new doctors, and 67 among new professors.
+
+- **57 %** of those passing the Matura are girls
+- **57 %** of new master's graduates are women
+- **46 %** of new doctors are women
+- **40 %** of new professors are women
+
+**Figure.** Animated chart: girls' and boys' share among the people reaching each step, Austria 1960 to 2024. The two lines add up to 100 percent. Girls became the majority at Matura and first degree; at doctorate and professor boys are still the majority.
+
+**Figure.** Line chart: girls' share (left axis) and boys' share (right axis) among the people reaching Matura, first degree, master's, doctorate and professorship, Austria 1960 to 2024. Matura and degrees cross 50 percent in the 1980s and 2000s; doctorate levels off around 40 percent; professor rises from 7 to 39 percent.
+
+Two things stand out. First, at school and university the imbalance now runs the other way: it is boys who fall behind, and by a wider margin than women at the doctorate. Second, the wave has not simply kept climbing. Women have been the majority of graduates for twenty years, yet their share of doctorates has stayed between 40 and 46 % since about 2004.
+
+## Bias or delay?
+
+A professorship lasts 30 to 35 years. The professors in post today were hired over the last three decades, mostly from doctorates awarded long before that. Even if hiring became perfectly balanced tomorrow, the share of women in post would take decades to follow, like a bathtub refilling through a narrow tap. I built a [small calculator for this effect](https://www.mgravey.com/Integrate-gender-ratio/).
+
+So the fair test is not “how many professors are women?” but “are women hired at their share of the people who could be hired?” The chart below compares the two directly. The solid violet line shows the share of women among doctorates in the year they were awarded. It takes about 15 years for those doctors to reach a chair, so the dashed violet line moves the same curve 15 years to the right: it is what new professors should look like if hiring simply followed the pool. The magenta line is what actually happened.
+
+**What is counted and what is estimated.** Solid lines are published counts. Doctorates and professors in post come from Statistics Austria. New professors from 2006 on come from the annual reports (*Wissensbilanzen*) of all 22 public universities. Dashed lines are not counts: the expected new professors (dashed violet), new professors before 2006 (estimated from the change in professors in post) and the projection after 2025.
+
+**Figure.** Line chart: women's share among doctorates at their award year and, dashed, the same curve 15 years later as the expected share among new professors; counted new professors from 2006 (estimated before) follow the dashed curve; professors in post lag behind and are projected to reach 38 percent by 2045. Austria 1980 to 2045. New professors: all appointments to a professorship at the 22 public universities, 3-year mean; dots are single years. Before 2006 there are no counts: the dashed line is an estimate from the yearly change in professors in post. See method.
+
+Across twenty years of counted appointments, from 2006 to 2025, the share of women among new professors has followed the share of women among doctorates from about fifteen years earlier, at **about 0.94 times** that share. Taken over five-year periods, hiring has never run above the pool of doctorates it draws from. In 2025, 45 % of new professors were women, the highest share so far and, for a single year, slightly above the doctorates of 2010 (42 %).
+
+Most of the gap among professors in post, 33 % women in 2025, is therefore **delay, not current bias in hiring**. The people hired today look like the doctorates of the years they come from. What is left is an inheritance from earlier decades, and it will retire on its own schedule.
+
+**Table: new professors against the doctorates of 15 years earlier (counted)**
+
+| Years | New professors | Women among them | Doctorates 15 years earlier | Ratio | Professors in post, end of period |
+|---|---|---|---|---|---|
+| 2006–2010 | 1,011 | 27.6 % | 28.3 % | 0.98 | 19.6 % |
+| 2011–2015 | 1,140 | 30.1 % | 35.0 % | 0.86 | 22.6 % |
+| 2016–2020 | 1,268 | 39.1 % | 40.7 % | 0.96 | 27.9 % |
+| 2021–2025 | 1,236 | 39.9 % | 42.4 % | 0.94 | 32.6 % |
+
+A few 2006–2012 values are rescaled or filled in; see method. All counts by university and year are in [data/universities](https://github.com/mgravey/to-the-top/tree/master/data/universities), with each university's report archive.
+
+## Will it overshoot?
+
+If the gap at the top is mostly delay, the next question is whether, at this speed, we will soon have the opposite problem. At the top, the data say **no, not on current trends**. Professors are recruited from doctorates, and the doctorate pool has been flat at 40–46 % women for twenty years. If hiring keeps following that pool as it has since 2006, the share of women among professors climbs to about 36 % by 2035 and 38 % by 2045 (dashed: a projection, not data), then levels off below parity. Because of the fifteen-year delay, the doctorates that will feed hiring until about 2038 have already been awarded. It would only overshoot if hiring started to favour women well beyond their share of doctorates, and twenty years of counted appointments show no sign of that.
+
+The opposite problem already exists, but lower down. **A third more girls than boys** now pass the Matura (57 % against 43 %). That gap is about twice the one at the doctorate, where men outnumber women by about a sixth (54 % against 46 %), and this time it is boys who are left behind. The one step where women still drop out faster than men is **from master's to doctorate**: 55 % of graduates are women, but 46 % of new doctors. That gap is happening now, not inherited, and it is not an effect of foreign students: among Austrians alone, 55 % of master's and diploma graduates are women but only 44 % of new doctors. Part of it may be field choice, which was not checked. If there is still a gender question in academia, that is where to look, not in professorial hiring.
+
+If the goal is 50/50 at the top, where should one act? **Not at the Matura.** For twenty years, women have been about 55 % of graduates, and the doctorate share has not followed: from a degree, women's odds of going on to a doctorate are about 0.6 times men's, and that ratio has barely moved since 2004. At that rate, parity among new doctors would need about 60 % women among graduates, some 150 women for every 100 men, which would deepen the gap that already leaves boys behind. **Not at professor hiring either.** Hiring already follows the pool of doctorates, at about 0.94 times its share of women. Forcing 50 % there while 46 % of new doctors are women would mean favouring women over the candidates who are actually available, and because professors stay in post for 30 years or more, it would change the faculty only slowly. **The place to act is the doctorate.** It is the one step where women still drop out faster than men today, it feeds the pool that professors are hired from, and a change there reaches new professors within about fifteen years.
+
+## The gaps nobody counts
+
+Austrian statistics count women and men at every step, every year, back to the 1950s. Gender is far from the only thing that can shape who climbs the ladder: family background, money, the language spoken at home, migration background, the region one grows up in, disability, and more. These are counted far less systematically. Take just one of them as an example: family background, measured by the parents' education. Statistics Austria's own report singles it out as having a considerable effect on the path through education, and it is one of the few with a series long enough to follow. Every five years or so, Statistics Austria's Adult Education Survey asks adults about their own education and their parents' education. The answer is a gap of a different order of magnitude:
+
+- **61 in 100** children of graduates earn a degree
+- **9 in 100** children of parents with compulsory schooling only
+- **6.5×** the difference, for 25 to 44-year-olds in 2022/23
+
+**Figure.** Packed mosaic: parents' education increases left to right and children's education bottom to top. Column widths represent survey-weighted parent-group population sizes in 2016/17 and 2022/23; 2007 and 2011/12 use approximate widths extrapolated in calendar time from the 2016/17 and 2022/23 group proportions. Tile heights show percentages within each parent group. Austrians aged 25 to 44, surveys 2007 to 2022/23.
+
+**Figure.** Animated two-group mosaic: below Matura versus Matura or higher on both axes. Columns and merged percentages use parent-group population weights; 2007 and 2011/12 proportions are extrapolated. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23.
+
+**Figure.** Animated two-group mosaic: no degree versus a university or college degree, on both axes. Parents increase left to right, children bottom to top. Ages 25 to 44, 2007 to 2022/23.
+
+Across fifteen years of surveys, more people in every group reached a degree. For children of parents with compulsory schooling only, the chance went from 6 to 9 in 100. For children of graduates, it went from 52 to 61. The ratio between the two fell from about 9 to 6.5, but the distance in percentage points **grew from 46 to 52**. The children of graduates gained more than the children who had the most ground to make up. Over the same decades, women's chance of a degree caught up with men's and overtook it; Statistics Austria dates the switch to the cohorts born after 1957.
+
+The same pattern shows at university entry. In 2024/25, 27 % of new Austrian university students had two parents with a degree, and only 2 % had two parents with compulsory schooling only. Compare that with gender today: no step on the ladder is further from parity than about 40 to 60, a ratio of 1.5 to 1. The family-background gap is several times larger, and in absolute terms it is still widening.
+
+Measured the same way as gender, as the share of places that would have to change hands for every group to hold its population share (the figure at the top), the gap by parents' education is about 21 % at the Matura and 29 % for a degree. The gender gap was last that large around 1961 at the Matura and has never been that large for a degree since 1965, the first year with data. Today the gender gap is about 8 % for both steps, and it is boys who are behind.
+
+No published Austrian data are available on doctorates or professorships by parents' education.
+
+**Table: share with a degree, by parents' education (per 100, aged 25 to 44)**
+
+| Parents' education | 2007 | 2011/12 | 2016/17 | 2022/23 |
+|---|---|---|---|---|
+| Compulsory school | 5.9 | 6.6 | 6.9 | 9.4 |
+| Apprenticeship or VET school | 10.8 | 12.6 | 15.9 | 18.3 |
+| Matura | 29.8 | 41.0 | 33.6 | 42.5 |
+| Degree | 51.8 | 55.8 | 57.3 | 61.3 |
+| Gap, degree vs compulsory | 45.9 pts | 49.2 pts | 50.4 pts | 51.9 pts |
+
+The full four-by-four tables, including the 45 to 64-year-olds, are in [data/parent-education.json](https://github.com/mgravey/to-the-top/blob/master/data/parent-education.json). The 2007 and 2011/12 rounds define the top category slightly differently ("university, Fachhochschule, and similar"), and measure parents' education when the respondent was 14 or 16. The Matura group is small, which explains its jumps.
+
+## Is gender still the right bias to fight?
+
+The gender gap at the top of academia is real, but it is mostly the past retiring slowly. Today's hiring already reflects the pool, and the next real gender gaps are at the doctorate and at school, where boys now lag. The gap by family background is several times larger, is still widening in percentage points, and is not even measured at the top.
+
+So the question is worth asking openly. Is gender still the bias that most needs fighting, or has it become the comfortable one? A gender policy can be fully satisfied by replacing a graduate's son with a graduate's daughter. The academic elite can champion it without giving up any of its own advantage. Fighting the bias of origin would cost that elite something: places for its own children.
+
+I don't think the data settle that question. But they show that it deserves to be asked, and that we should start counting family background as carefully as we count gender.
+
+## Method and sources
+
+Every step is expressed per 100 people of one age group, by sex, so years and steps can be compared. Reliability varies by step and period:
+
+- **Matura:** official rate by sex from 1987. Interpolated from exam counts for 1970–1986, and estimated from birth cohorts in the education register for 1960–1969 (rough).
+
+- **First degree and master's:** degrees by type, split by sex, from 1991. Estimated from register birth cohorts before that (rough, likely overstates women).
+
+- **Doctorate:** counted doctorates by sex from 1981 (Statistics Austria), reduced to Austrian graduates: the Austrian share is published for recent years (2023: 57 % of men, 53 % of women) and interpolated back to about 90 % in 1990. The share charts use all doctorates, without this reduction.
+
+- **Professor:** from 2006, counted new professors by sex at the 22 public universities × the share not appointed from abroad (about 52 %, the published 2020–2022 figure). Before 2006, an estimate: new professors by sex inferred from the change in professors in post, with the departure rates calibrated on the counted years (see the lag model below), × 52 %. The same estimate is used in every chart, so the lines join the counts in 2006. Placed at about age 43 (the German average age at first appointment; no Austrian figure was found). The share charts use all new professors, without the 52 % reduction.
+
+- **New professors:** counted from the Wissensbilanzen of the 22 public universities, 2006–2025 (indicators II.1.3, 1.A.3 and 1.A.2, all appointments under §§ 98 and 99 UG, by year of taking up the post). Universität Wien 2006–2011 and Akademie der bildenden Künste 2006 rescaled to later years' totals (share kept); JKU 2012 filled from neighbouring years. 2005 and earlier: no counts exist (the first reports had no appointments indicator); the chart shows an estimate from the change in professors in post, with departure rates by sex (7.9 % women, 7.1 % men a year) calibrated on the counted years 2006–2024 (error 2.2 points, against 4.8 points with one equal rate), flagged as an estimate.
+
+- **Delay and projection:** the delay of 15 years is the one that makes the ratio of counted hiring to earlier doctorates most stable over 2006–2025 (0.94). The projection is a model: number of professors and the 2021–2025 hiring rate held constant, women hired at 0.94 times their share of doctorates 15 years earlier; after 2038, at 0.94 times the 2019–2023 average.
+
+- **Birth counts** for 1951–52 and 1961–69 are not from an official table; they agree with the published 1987 figure to within 1 %.
+
+Sources: Statistics Austria, *Bildung in Zahlen* 2024/25 (report and tables 1.1.5, 2.1.9, 2.1.10, 2.1_26, 2.2.5, 2.2_1, 2.2_2, 2.2_9, 2.2_13, 4.1_8, 5.1_9a/b) and 2023/24 (tables 3.8 and 3.12); Statistics Austria, Adult Education Survey 2007, 2011/12, 2016/17 and 2022/23 (survey reports and *Bildung in Zahlen* 2018/19); BMFWF, *Statistisches Taschenbuch* 2025; Wissensbilanzen of the 22 public universities, 2006–2025.
+
+Code and data: [github.com/mgravey/to-the-top](https://github.com/mgravey/to-the-top). Related: [how long does a hiring policy take to change a faculty?](https://www.mgravey.com/Integrate-gender-ratio/)

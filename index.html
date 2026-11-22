@@ -3,12 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Who makes it to the top?</title>
-<meta name="description" content="Gender and family background on the road from school to professorship in Austria. Is the gender gap at the top a bias or a delay, and is gender still the right bias to fight?">
-<meta property="og:title" content="Who makes it to the top?">
-<meta property="og:description" content="Gender and family background on the road from school to professorship in Austria.">
+<title>Who makes it to the top? Gender and family background in Austrian academia</title>
+<meta name="description" content="Austria's gender gap in reaching the Matura or a degree has flipped; the gap by parents' education is about three times larger. School to professorship, 1960–2024.">
+<meta name="author" content="Mathieu Gravey">
+<link rel="canonical" href="https://mgravey.com/to-the-top/">
 <meta property="og:type" content="article">
-<link rel="canonical" href="https://www.mgravey.com/to-the-top/">
+<meta property="og:site_name" content="Mathieu Gravey">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://mgravey.com/to-the-top/">
+<meta property="og:title" content="Who makes it to the top?">
+<meta property="og:description" content="The gender gap in Austrian education has flipped. The gap by parents' education is about three times larger. Data from school to professorship, 1960–2024.">
+<meta property="og:image" content="https://mgravey.com/to-the-top/figures/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Chart comparing the gender gap and the parents'-education gap in reaching the Matura or a degree in Austria, 1960–2024.">
+<meta property="article:author" content="https://mgravey.com/">
+<meta property="article:published_time" content="2026-11-22">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@mathieuGravey">
+<meta name="twitter:title" content="Who makes it to the top?">
+<meta name="twitter:description" content="The gender gap in Austrian education has flipped. The gap by parents' education is about three times larger. Data from school to professorship, 1960–2024.">
+<meta name="twitter:image" content="https://mgravey.com/to-the-top/figures/social-card.png">
+<meta name="twitter:image:alt" content="Chart comparing the gender gap and the parents'-education gap in reaching the Matura or a degree in Austria, 1960–2024.">
+<link rel="alternate" type="text/markdown" href="llms-full.txt" title="Full text for language models">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Who makes it to the top?",
+ "alternativeHeadline": "Gender and family background on the road from school to professorship in Austria",
+ "description": "Austria's gender gap in reaching the Matura or a degree has flipped; the gap by parents' education is about three times larger. School to professorship, 1960–2024.",
+ "url": "https://mgravey.com/to-the-top/",
+ "mainEntityOfPage": "https://mgravey.com/to-the-top/",
+ "image": "https://mgravey.com/to-the-top/figures/social-card.png",
+ "inLanguage": "en",
+ "datePublished": "2026-11-22",
+ "dateModified": "2026-11-22",
+ "author": {
+  "@type": "Person",
+  "name": "Mathieu Gravey",
+  "url": "https://mgravey.com/",
+  "sameAs": [
+   "https://orcid.org/0000-0002-0871-1507",
+   "https://github.com/mgravey"
+  ]
+ },
+ "publisher": {
+  "@type": "Person",
+  "name": "Mathieu Gravey",
+  "url": "https://mgravey.com/"
+ },
+ "about": [
+  "Gender gap in education",
+  "Educational inequality",
+  "Social mobility",
+  "Academic careers",
+  "Austria"
+ ],
+ "keywords": "gender gap, parental education, social mobility, Matura, university degree, doctorate, professors, academia, Austria, dissimilarity index",
+ "spatialCoverage": {
+  "@type": "Place",
+  "name": "Austria"
+ },
+ "temporalCoverage": "1960/2025",
+ "isBasedOn": [
+  "https://www.statistik.at/",
+  "https://github.com/mgravey/to-the-top"
+ ]
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪜</text></svg>">
 <style>
 :root{
@@ -86,7 +149,7 @@ figure object{display:block;width:100%;height:auto}
 <p class="kicker">Austria · school to professorship · 1960–2024</p>
 <h1>Who makes it to the top?</h1>
 <p class="sub">Gender and family background on the road from school to professorship in Austria</p>
-<p class="byline"><a href="https://www.mgravey.com">Mathieu Gravey</a> · November 2026 · <a href="https://github.com/mgravey/to-the-top">data and code</a></p>
+<p class="byline"><a href="/">Mathieu Gravey</a> · November 2026 · <a href="https://github.com/mgravey/to-the-top">data and code</a></p>
 
 <p class="lede">Universities spend a lot of effort correcting gender bias: quotas on committees, targeted calls, equality plans. That effort was once badly needed. But the people climbing the ladder today are not the people of 1980. So is there still a gender bias to correct at the top, or are we looking at the slow arrival of change that has already happened lower down? And while we count women and men, are there other gaps that nobody counts?</p>
 
@@ -139,7 +202,7 @@ figure object{display:block;width:100%;height:auto}
 <h2><span class="n">3</span>Bias or delay?</h2>
 <p>A professorship lasts 30 to 35 years. The professors in post today were hired over the last three decades, mostly from doctorates awarded long before that. Even if hiring became perfectly balanced tomorrow, the share of women in post would take decades to follow, like a bathtub refilling through a narrow tap. I built a <a href="https://www.mgravey.com/Integrate-gender-ratio/">small calculator for this effect</a>.</p>
 <p>So the fair test is not “how many professors are women?” but “are women hired at their share of the people who could be hired?” The chart below compares the two directly. The solid violet line shows the share of women among doctorates in the year they were awarded. It takes about 15 years for those doctors to reach a chair, so the dashed violet line moves the same curve 15 years to the right: it is what new professors should look like if hiring simply followed the pool. The magenta line is what actually happened.</p>
-<p class="note"><strong>What is counted and what is estimated.</strong> Solid lines are published counts. Doctorates and professors in post come from Statistics Austria. New professors from 2006 on come from the annual reports (<em>Wissensbilanzen</em>) of all 22 public universities. Dashed lines are not counts: the expected new professors (dashed blue), new professors before 2006 (estimated from the change in professors in post) and the projection after 2025.</p>
+<p class="note"><strong>What is counted and what is estimated.</strong> Solid lines are published counts. Doctorates and professors in post come from Statistics Austria. New professors from 2006 on come from the annual reports (<em>Wissensbilanzen</em>) of all 22 public universities. Dashed lines are not counts: the expected new professors (dashed violet), new professors before 2006 (estimated from the change in professors in post) and the projection after 2025.</p>
 
 <figure>
   <img src="figures/professor-lag.svg" alt="Line chart: women's share among doctorates at their award year and, dashed, the same curve 15 years later as the expected share among new professors; counted new professors from 2006 (estimated before) follow the dashed curve; professors in post lag behind and are projected to reach 38 percent by 2045. Austria 1980 to 2045." width="820" height="580">

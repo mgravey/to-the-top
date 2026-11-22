@@ -30,11 +30,14 @@ jobs:
       - name: Test the timeline player
         run: node --test tests/
 
-      # Publish only what the page loads: the page, its figures and the player script.
+      - name: Regenerate the full text for language models
+        run: python3 scripts/llms_full.py
+
+      # Publish the page, its figures, the player script, and the files for search engines and LLMs.
       - name: Assemble site
         run: |
           mkdir -p _site/scripts
-          cp index.html .nojekyll _site/
+          cp index.html .nojekyll llms.txt llms-full.txt sitemap.xml _site/
           cp -r figures _site/
           cp scripts/parent_education_player.js _site/scripts/
 

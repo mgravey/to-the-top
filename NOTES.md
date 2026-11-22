@@ -12,7 +12,9 @@ Working notes carried over from the exploratory session (21 Nov 2026). Page titl
 5. **By parents' education** — rectangular mosaic, AES 2007, 2011/12, 2016/17, 2022/23, ages 25–44, animated (`figures/parent-education-animated.svg`, `scripts/parent_education.py`). Nothing for doctorate or professor, and no pay by parental education.
 6. **Closing question** — is gender still the right bias to fight?
 
-The page is `index.html` (GitHub Pages from the repo root, `.nojekyll`), meant for https://www.mgravey.com/to-the-top/.
+The page is `index.html`, deployed to GitHub Pages by `.github/workflows/pages.yml` (tests, then `index.html`, `figures/`, the player script, `llms.txt`, `llms-full.txt`, `sitemap.xml`), at https://mgravey.com/to-the-top/ (`www.` redirects to the apex, so canonical and sitemap use the apex).
+
+Search and LLMs: the head carries description, canonical, Open Graph / Twitter tags with `figures/social-card.png` (1200 × 630) and Article JSON-LD. `llms.txt` is hand-written (key findings, sources, data files); `llms-full.txt` is generated from the page by `scripts/llms_full.py`, also in the workflow. When the findings change, update `llms.txt`, the JSON-LD description and the social card by hand. The main site still has to list `https://mgravey.com/to-the-top/sitemap.xml` in its sitemap index and the page in its root `llms.txt`.
 
 Interactive charts are loaded with `<object>` so the page script can drive them: animated SVGs carry `data-times`/`data-labels` (frame start times in seconds), play once when scrolled into view, stop on the last frame, and get Pause/Replay plus a year slider (or round buttons when ≤ 6 frames). Animated charts in the same figure (log and linear) share one player and clock, so switching views keeps the year; hidden views are kept loaded (visibility: hidden) so they can be driven. The over-time chart carries `data-steps` and a default `data-hl="1"`; it draws girls' and boys' lines for one step at a time (others faint) with thin lines at the 2024 level, and the page's step buttons change `data-hl`. This needs http(s): opened from `file://`, the charts just loop as plain SVGs. Test locally with `python3 -m http.server`.
 
@@ -39,6 +41,8 @@ python3 scripts/birth_cohort.py      # -> pipeline-log-by-birth-cohort.svg
 python3 scripts/share_over_time.py    # -> share-over-time.svg (needs data/girls-share.json from draw_animations.py)
 python3 scripts/parent_education.py  # -> parent-education-animated.svg, data/parent-education.json
 python3 scripts/bias_comparison.py   # needs series.json and parent-education.json -> bias-comparison.svg
+python3 scripts/social_card.py       # needs Chrome; bias-comparison.svg -> social-card.png
+python3 scripts/llms_full.py         # index.html -> llms-full.txt
 ```
 
 `build_series.py` reads the hard-coded series at the top of `women_share.py` (Matura rates, university degrees, doctorates, professors).
