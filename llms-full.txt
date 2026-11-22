@@ -138,4 +138,6 @@ Every step is expressed per 100 people of one age group, by sex, so years and st
 
 Sources: Statistics Austria, *Bildung in Zahlen* 2024/25 (report and tables 1.1.5, 2.1.9, 2.1.10, 2.1_26, 2.2.5, 2.2_1, 2.2_2, 2.2_9, 2.2_13, 4.1_8, 5.1_9a/b) and 2023/24 (tables 3.8 and 3.12); Statistics Austria, Adult Education Survey 2007, 2011/12, 2016/17 and 2022/23 (survey reports and *Bildung in Zahlen* 2018/19); BMFWF, *Statistisches Taschenbuch* 2025; Wissensbilanzen of the 22 public universities, 2006–2025.
 
+Licence: text and figures © 2026 Mathieu Gravey, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may share and adapt them, also commercially, if you credit the author, link this page and the licence, and release adaptations under the same licence. Suggested credit: “Mathieu Gravey (2026), *Who makes it to the top?*, mgravey.com/to-the-top, CC BY-SA 4.0”. The underlying statistics belong to their sources (Statistics Austria, the universities' Wissensbilanzen, BMFWF) and keep their own terms.
+
 Code and data: [github.com/mgravey/to-the-top](https://github.com/mgravey/to-the-top). Related: [how long does a hiring policy take to change a faculty?](https://www.mgravey.com/Integrate-gender-ratio/)

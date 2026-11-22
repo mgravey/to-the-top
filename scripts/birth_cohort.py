@@ -1,5 +1,6 @@
 import os; ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/'
 import math
+from credit import with_credit
 # born around: (boys matura+, boys degree, girls matura+, girls degree) — register 2022, age groups 80–84 ... 30–34
 C=[(1940,19.6,10.5,10.0,3.9),(1945,22.4,12.1,13.6,5.8),(1950,22.0,12.6,15.3,8.9),(1955,24.9,13.7,20.8,12.9),(1960,25.7,13.3,24.8,13.7),(1965,27.3,13.8,28.6,14.7),(1970,30.3,16.0,32.8,17.1),(1975,32.9,18.9,38.8,22.2),(1980,36.4,20.7,45.7,26.3),(1985,37.8,21.9,48.6,29.3),(1990,39.8,22.1,51.6,31.6)]
 W,H=720,470; L,R,T,Bm=64,150,104,392
@@ -65,4 +66,4 @@ for k in ('b','g'):
 for i,c in enumerate(C):
     o.append(f'<g visibility="{"visible" if i==n-1 else "hidden"}">{vis(i)}<text class="m" x="{W-16}" y="62" font-size="12" text-anchor="end">born around</text><text x="{W-16}" y="96" font-size="34" font-weight="700" text-anchor="end">{c[0]}</text></g>')
 o.append('</svg>')
-open(ROOT+'figures/'+'pipeline-log-by-birth-cohort.svg','w').write('\n'.join(o))
+open(ROOT+'figures/'+'pipeline-log-by-birth-cohort.svg','w').write(with_credit('\n'.join(o)))

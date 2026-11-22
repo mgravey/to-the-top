@@ -6,6 +6,7 @@
 - Full text as Markdown (generated from the page): https://mgravey.com/to-the-top/llms-full.txt
 - Code and data: https://github.com/mgravey/to-the-top
 - Author and main website: [Mathieu Gravey](https://mgravey.com/) ([llms.txt](https://mgravey.com/llms.txt))
+- Licence: text and figures CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Credit: "Mathieu Gravey (2026), Who makes it to the top?, mgravey.com/to-the-top". The underlying statistics keep their sources' terms.
 
 ## Key findings
 

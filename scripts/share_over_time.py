@@ -8,6 +8,7 @@ Writes figures/share-over-time.svg.
 """
 import json
 import os; ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
+from credit import with_credit
 
 d = json.load(open(ROOT + 'data/girls-share.json')); years = d['years']; G = d['girls_share_pct']
 # step index in the series -> (name, first year drawn, last rough year: dashed up to and including it)
@@ -71,4 +72,4 @@ for c, (j, name, y0, rough_to) in enumerate(STEPS, 1):
 o.append(f'<text class="m" x="16" y="{H - 30}" font-size="11">From the rates per 100 children (girls are 49.5 % of an age group). Master\'s are counted separately from 1991. Faint lines: the other steps.</text>')
 o.append(f'<text class="m" x="16" y="{H - 14}" font-size="11">Doctorate and professor (from 2007) are counted shares: all doctorates, all new professors (22 university reports). Earlier professor values: estimate.</text>')
 o.append('</svg>')
-open(ROOT + 'figures/share-over-time.svg', 'w').write('\n'.join(o))
+open(ROOT + 'figures/share-over-time.svg', 'w').write(with_credit('\n'.join(o)))

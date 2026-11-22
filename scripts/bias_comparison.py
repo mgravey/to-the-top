@@ -11,6 +11,7 @@ Writes data/bias-comparison.json and figures/bias-comparison.svg.
 import json
 from html import escape
 import os; ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
+from credit import with_credit
 
 GIRLS = 0.495
 STEPS = [('matura', 'Matura', 1, [2, 3]), ('degree', 'Degree', 2, [3])]  # series index, own levels counted
@@ -128,4 +129,4 @@ for year in sorted(hover):
 o.append(f'<text class="m" x="16" y="{H - 22}" font-size="11">Gender: Statistics Austria, per-100 rates by sex (1960s values rough). Parents: Adult Education Survey 2007 to 2022/23, Bildung in Zahlen.</text>'
          f'<text class="m" x="16" y="{H - 7}" font-size="11">Hollow dots: estimated parent-group sizes. Dotted lines: today\'s parental level carried back in time.</text>')
 o.append('</svg>')
-open(ROOT + 'figures/bias-comparison.svg', 'w').write('\n'.join(o))
+open(ROOT + 'figures/bias-comparison.svg', 'w').write(with_credit('\n'.join(o)))

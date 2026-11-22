@@ -17,6 +17,7 @@ Writes figures/parent-education-*.svg and data/parent-education.json.
 import json
 from html import escape
 import os; ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
+from credit import with_credit
 
 OWN = ['Compulsory school', 'Apprenticeship or VET school', 'Matura (AHS/BHS)', 'University or college degree']
 PAR = OWN.copy()
@@ -224,7 +225,7 @@ o.append('<text class="m" x="16" y="701" font-size="12">Tile numbers = percentag
 o.append('<text class="m" x="16" y="726" font-size="11">Statistics Austria, Adult Education Survey 2007, 2011/12, 2016/17, 2022/23; Bildung in Zahlen 2018/19 and 2024/25, table 5.1_9a.</text>')
 o.append('<text class="m" x="16" y="745" font-size="11">Parents&apos; education is the higher of mother and father. Degree includes colleges; 2007 and 2011/12 group it slightly differently.</text>')
 o.append('</svg>')
-open(ROOT + 'figures/parent-education-animated.svg', 'w').write('\n'.join(o))
+open(ROOT + 'figures/parent-education-animated.svg', 'w').write(with_credit('\n'.join(o)))
 
 
 def aligned_chart(mode):
@@ -306,7 +307,7 @@ def aligned_chart(mode):
     chart.append(f'<text class="m" x="16" y="699" font-size="13">{explanation}</text>')
     chart.extend(o[-3:])  # Source, category caveat, closing SVG tag.
     filename = f'figures/parent-education-{mode}-animated.svg'
-    open(ROOT + filename, 'w').write('\n'.join(chart))
+    open(ROOT + filename, 'w').write(with_credit('\n'.join(chart)))
 
 
 aligned_chart('heatmap')
@@ -378,7 +379,7 @@ def threshold_chart(levels, bands, grouped, slug, title, description, footnote):
     chart.append(f'<text x="{BX + BW / 2}" y="665" text-anchor="middle" font-size="15" font-weight="600">Parents&apos; highest education</text>')
     chart.append(f'<text class="m" x="16" y="701" font-size="12">{footnote}</text>')
     chart.extend(o[-3:])
-    open(ROOT + f'figures/parent-education-{slug}-animated.svg', 'w').write('\n'.join(chart))
+    open(ROOT + f'figures/parent-education-{slug}-animated.svg', 'w').write(with_credit('\n'.join(chart)))
 
 
 threshold_chart(MATURA_LEVELS, MATURA_BANDS, MATURA_FRAMES, 'matura', "Reaching Matura, by parents' education",
@@ -448,7 +449,7 @@ def grouped_chart():
     chart.append('<text class="m" x="16" y="686" font-size="12">Each column combines two parent levels. Children: compulsory + VET at the bottom; Matura + degree at the top.</text>')
     chart.append('<text class="m" x="16" y="704" font-size="12">Equal weight for the four original parent groups; illustrative merged shares, not population-weighted estimates.</text>')
     chart.extend(o[-3:])
-    open(ROOT + 'figures/parent-education-grouped-animated.svg', 'w').write('\n'.join(chart))
+    open(ROOT + 'figures/parent-education-grouped-animated.svg', 'w').write(with_credit('\n'.join(chart)))
 
 
 grouped_chart()

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" data-steps="Matura,1st degree,Master,Doctorate,Professor" data-hl="1" role="img" aria-label="Girls' and boys' share among the people reaching each step from Matura to professorship, Austria 1960 to 2024, one step at a time">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 580" data-steps="Matura,1st degree,Master,Doctorate,Professor" data-hl="1" role="img" aria-label="Girls' and boys' share among the people reaching each step from Matura to professorship, Austria 1960 to 2024, one step at a time">
 <style>
 svg{--fg:#1c1c1c;--mu:#6b6b6b;--bd:#dddddd;--bg:#ffffff;--c1:#2f6fed;--c2:#0f9d8a;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
 @media (prefers-color-scheme:dark){svg{--fg:#ededed;--mu:#a0a0a0;--bd:#333333;--bg:#0e0e0e;--c1:#5b8dff;--c2:#2dd4bf}}
@@ -10,7 +10,7 @@ svg{--fg:#1c1c1c;--mu:#6b6b6b;--bd:#dddddd;--bg:#ffffff;--c1:#2f6fed;--c2:#0f9d8
 .st{opacity:.13;transition:opacity .25s} .lab,.sub{display:none}
 svg[data-hl="1"] .st1{opacity:1} svg[data-hl="1"] .st1 .lab,svg[data-hl="1"] .sub1{display:inline} svg[data-hl="1"] .st1 .l{stroke-width:3} svg[data-hl="2"] .st2{opacity:1} svg[data-hl="2"] .st2 .lab,svg[data-hl="2"] .sub2{display:inline} svg[data-hl="2"] .st2 .l{stroke-width:3} svg[data-hl="3"] .st3{opacity:1} svg[data-hl="3"] .st3 .lab,svg[data-hl="3"] .sub3{display:inline} svg[data-hl="3"] .st3 .l{stroke-width:3} svg[data-hl="4"] .st4{opacity:1} svg[data-hl="4"] .st4 .lab,svg[data-hl="4"] .sub4{display:inline} svg[data-hl="4"] .st4 .l{stroke-width:3} svg[data-hl="5"] .st5{opacity:1} svg[data-hl="5"] .st5 .lab,svg[data-hl="5"] .sub5{display:inline} svg[data-hl="5"] .st5 .l{stroke-width:3} 
 </style>
-<rect class="bg" width="820" height="560"/>
+<rect class="bg" width="820" height="580"/>
 <text x="16" y="30" font-size="19" font-weight="600">The same shares over time</text>
 <text class="m sub sub1" x="16" y="52" font-size="14">Austria, 1960 to 2024. Out of every 100 people reaching the Matura, how many are girls and boys.</text>
 <text class="m sub sub2" x="16" y="52" font-size="14">Austria, 1960 to 2024. Out of every 100 people reaching a first degree, how many are girls and boys.</text>
@@ -95,4 +95,5 @@ svg[data-hl="1"] .st1{opacity:1} svg[data-hl="1"] .st1 .lab,svg[data-hl="1"] .su
 </g>
 <text class="m" x="16" y="530" font-size="11">From the rates per 100 children (girls are 49.5 % of an age group). Master's are counted separately from 1991. Faint lines: the other steps.</text>
 <text class="m" x="16" y="546" font-size="11">Doctorate and professor (from 2007) are counted shares: all doctorates, all new professors (22 university reports). Earlier professor values: estimate.</text>
+<text data-credit="" class="m" x="16" y="572" font-size="11">© 2026 Mathieu Gravey · mgravey.com/to-the-top · CC BY-SA 4.0<title>Licence: https://creativecommons.org/licenses/by-sa/4.0/</title></text>
 </svg>

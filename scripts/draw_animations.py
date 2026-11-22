@@ -1,5 +1,6 @@
 import math,json
 import os; ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/'; B=ROOT+'figures/'
+from credit import with_credit
 d=json.load(open(ROOT+'data/series.json')); years=d['years']; S=d['S']; n=len(years)
 # which frames have counted data at the top steps (frame Y uses data of year Y-1)
 NAT={r['year']:r['appointments_women_pct'] for r in json.load(open(ROOT+'data/universities.json'))['national']}
@@ -90,7 +91,7 @@ def chart(fname,title,sub,aria,series,lo,hi,ticks,fmt,legend,parity=None,suffix=
             o.append('</g>')
     for i,Y in enumerate(years):
         o.append(f'<g visibility="{"visible" if i==n-1 else "hidden"}">{vis(i)}<text x="{W-16}" y="88" font-size="38" font-weight="700" text-anchor="end">{Y}</text></g>')
-    o.append('</svg>'); open(B+fname,'w').write('\n'.join(o))
+    o.append('</svg>'); open(B+fname,'w').write(with_credit('\n'.join(o)))
 f1=lambda v: f'{v:.0f}' if v>=10 else f'{v:.1f}' if v>=1 else f'{v:.2f}' if v>=0.1 else f'{v:.3f}'
 leg1='<rect class="dg" x="16" y="68" width="16" height="4" rx="2"/><text x="38" y="75" font-size="13">Girls</text><rect class="db" x="82" y="68" width="16" height="4" rx="2"/><text x="104" y="75" font-size="13">Boys</text><circle class="ax" cx="158" cy="70" r="4.5"/><line class="ax" x1="170" x2="192" y1="70" y2="70" stroke-dasharray="5 4"/><text x="198" y="75" font-size="13">Rough estimate</text><line class="ghb" x1="312" x2="334" y1="73" y2="73"/><line class="ghg" x1="312" x2="334" y1="68" y2="68"/><text x="340" y="75" font-size="13">Faint: 2024, for reference</text>'
 chart('pipeline-log-all-steps-animated.svg','From age 10 to a professorship, per 100 children','Austria, 1960 to 2024. Logarithmic scale. Doctorates and professors: counted, Austrian graduates only.',

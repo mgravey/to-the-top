@@ -6,6 +6,7 @@ Writes figures/professor-lag.svg and data/professor-lag.json.
 """
 import re, json
 import os; ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
+from credit import with_credit
 
 L = open(ROOT + 'data/biz-2024-25-report.txt', encoding='utf-8').read().split('\n')
 def table(title, stop=400):
@@ -149,4 +150,4 @@ lab(x(1995), yv(3), 'Professors in post', f'{post[2025]:.0f} % in 2025, counted'
 o.append(f'<text class="m" x="16" y="{H_ - 30}" font-size="11">Counted: Statistics Austria, Bildung in Zahlen 2024/25 (tables 2.2_13, 4.1_8); Wissensbilanzen of the 22 public universities, 2006-2025.</text>')
 o.append(f'<text class="m" x="16" y="{H_ - 14}" font-size="11">Expected: women hired at {ALPHA:.2f} x their share of doctorates 15 years before, fitted on 2006-2025. Before 2006: estimate calibrated on the counts.</text>')
 o.append('</svg>')
-open(ROOT + 'figures/professor-lag.svg', 'w').write('\n'.join(o))
+open(ROOT + 'figures/professor-lag.svg', 'w').write(with_credit('\n'.join(o)))
